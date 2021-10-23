@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-07-11">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="黄飞" label="黄飞" />
+      <node id="陈康" label="陈康" />
+      <node id="贾龙" label="贾龙" />
+      <node id="覃玉东" label="覃玉东" />
+      <node id="余若菡" label="余若菡" />
+      <node id="余某乙" label="余某乙" />
+      <node id="余某甲" label="余某甲" />
+      <node id="唐某乙" label="唐某乙" />
+      <node id="唐某甲" label="唐某甲" />
+      <node id="丁琼" label="丁琼" />
+      <node id="杨丽芬" label="杨丽芬" />
+      <node id="白世桥" label="白世桥" />
+      <node id="申元生" label="申元生" />
+      <node id="韦凯" label="韦凯" />
+      <node id="曲继发" label="曲继发" />
+      <node id="杜吉兰" label="杜吉兰" />
+      <node id="陈强" label="陈强" />
+      <node id="张燕(陈强妻子)" label="张燕(陈强妻子)" />
+      <node id="杨沪霞" label="杨沪霞" />
+      <node id="杨汝霞" label="杨汝霞" />
+      <node id="杨浮霞" label="杨浮霞" />
+      <node id="杨廷信" label="杨廷信" />
+      <node id="品佳品食品(深圳)有限公司宝安分公司" label="品佳品食品(深圳)有限公司宝安分公司" />
+      <node id="张恒" label="张恒" />
+      <node id="王甲(同时受陶甲的授权委托)" label="王甲(同时受陶甲的授权委托)" />
+      <node id="陶甲" label="陶甲" />
+      <node id="衣洪波" label="衣洪波" />
+      <node id="张永利" label="张永利" />
+      <node id="史瑞杰" label="史瑞杰" />
+      <node id="范俊刚" label="范俊刚" />
+      <node id="刘进(同时受王月芹特别授权委托)" label="刘进(同时受王月芹特别授权委托)" />
+      <node id="王月芹" label="王月芹" />
+      <node id="吕勇郭" label="吕勇郭" />
+      <node id="张燕" label="张燕" />
+      <node id="潘正清(同时受黄文雅的特别授权委托)" label="潘正清(同时受黄文雅的特别授权委托)" />
+      <node id="黄文雅" label="黄文雅" />
+      <node id="梁凤林" label="梁凤林" />
+      <node id="刘八凯" label="刘八凯" />
+      <node id="邓华" label="邓华" />
+      <node id="首都大酒店" label="首都大酒店" />
+      <node id="叶润军" label="叶润军" />
+      <node id="广西壮族自治区人民检察院" label="广西壮族自治区人民检察院" />
+      <node id="张海洋暨" label="张海洋暨" />
+      <node id="赵东梅" label="赵东梅" />
+      <node id="王彩玲" label="王彩玲" />
+      <node id="张蒙蒙" label="张蒙蒙" />
+      <node id="妹夫" label="妹夫" />
+      <node id="王桂红" label="王桂红" />
+      <node id="史瑞瑞" label="史瑞瑞" />
+      <node id="史瑞莲" label="史瑞莲" />
+      <node id="左政" label="左政" />
+      <node id="朱秋华" label="朱秋华" />
+      <node id="公司员工" label="公司员工" />
+      <node id="林天斌" label="林天斌" />
+      <node id="闫运涛" label="闫运涛" />
+      <node id="冉庆博" label="冉庆博" />
+      <node id="李国锋" label="李国锋" />
+      <node id="王军" label="王军" />
+      <node id="陶思伟" label="陶思伟" />
+      <node id="李信国" label="李信国" />
+      <node id="叶敏" label="叶敏" />
+      <node id="冯志波" label="冯志波" />
+      <node id="云南善尊茶业有限公司" label="云南善尊茶业有限公司" />
+      <node id="云南滇隆制药有限公司" label="云南滇隆制药有限公司" />
+      <node id="覃安洪" label="覃安洪" />
+      <node id="重庆桐君阁股份有限公司" label="重庆桐君阁股份有限公司" />
+      <node id="重庆桐君阁大药房连锁有限责任公司" label="重庆桐君阁大药房连锁有限责任公司" />
+      <node id="河南省人民检察院" label="河南省人民检察院" />
+      <node id="李可" label="李可" />
+      <node id="徐克勇" label="徐克勇" />
+      <node id="徐忠" label="徐忠" />
+      <node id="梧州龙山酒业有限公司" label="梧州龙山酒业有限公司" />
+      <node id="牟家文" label="牟家文" />
+      <node id="周三根" label="周三根" />
+      <node id="东莞市中润超级市场有限公司" label="东莞市中润超级市场有限公司" />
+      <node id="陈敦刚" label="陈敦刚" />
+      <node id="菲仕兰食品贸易(上海)有限公司" label="菲仕兰食品贸易(上海)有限公司" />
+      <node id="湛江市杰尔康贸易有限公司" label="湛江市杰尔康贸易有限公司" />
+      <node id="梁振群" label="梁振群" />
+      <node id="江金龙" label="江金龙" />
+      <node id="蒋海飞" label="蒋海飞" />
+      <node id="侯知规" label="侯知规" />
+      <node id="浙江淘宝网络有限公司" label="浙江淘宝网络有限公司" />
+      <node id="叶谷珍" label="叶谷珍" />
+      <node id="刘进" label="刘进" />
+      <node id="潘正艳" label="潘正艳" />
+      <node id="朱玉娄" label="朱玉娄" />
+      <node id="熊柏林" label="熊柏林" />
+      <node id="陈刚" label="陈刚" />
+      <node id="邢志红" label="邢志红" />
+      <node id="山西省人民检察院" label="山西省人民检察院" />
+      <node id="王成江" label="王成江" />
+      <node id="沈阳大润发商业有限公司" label="沈阳大润发商业有限公司" />
+      <node id="惠州市金宝购物连锁有限公司" label="惠州市金宝购物连锁有限公司" />
+      <node id="汤润富" label="汤润富" />
+      <node id="惠州市金宝购物连锁有限公司江畔店" label="惠州市金宝购物连锁有限公司江畔店" />
+      <node id="李宗胜" label="李宗胜" />
+      <node id="李宗丰" label="李宗丰" />
+      <node id="陈雷" label="陈雷" />
+      <node id="北京酒葫芦电子商务有限公司" label="北京酒葫芦电子商务有限公司" />
+      <node id="陈煌灿" label="陈煌灿" />
+      <node id="陈煌辉" label="陈煌辉" />
+      <node id="曾少华" label="曾少华" />
+      <node id="向程" label="向程" />
+      <node id="永州步步高商业连锁有限责任公司冷水滩分公司" label="永州步步高商业连锁有限责任公司冷水滩分公司" />
+      <node id="李塑来" label="李塑来" />
+      <node id="杨树林" label="杨树林" />
+      <node id="瞿希望" label="瞿希望" />
+      <node id="闫可亲" label="闫可亲" />
+      <node id="闫世亮" label="闫世亮" />
+      <node id="美可高特羊乳有限公司" label="美可高特羊乳有限公司" />
+      <node id="谢嘉明" label="谢嘉明" />
+      <node id="吴泽齐" label="吴泽齐" />
+      <node id="刘冬梅" label="刘冬梅" />
+      <node id="王鹏飞" label="王鹏飞" />
+      <node id="江苏银行股份有限公司杭州分行" label="江苏银行股份有限公司杭州分行" />
+      <node id="季海燕" label="季海燕" />
+      <node id="马树根" label="马树根" />
+      <node id="潘世红" label="潘世红" />
+      <node id="皮嫣" label="皮嫣" />
+      <node id="马志强" label="马志强" />
+      <node id="马文萱" label="马文萱" />
+      <node id="王思杰" label="王思杰" />
+      <node id="熊某某" label="熊某某" />
+      <node id="陈某" label="陈某" />
+      <node id="深圳市人民检察院" label="深圳市人民检察院" />
+      <node id="陈明江" label="陈明江" />
+      <node id="广东省广州市人民检察院" label="广东省广州市人民检察院" />
+      <node id="广东省消费者委员会" label="广东省消费者委员会" />
+      <node id="陆萍" label="陆萍" />
+      <node id="配偶" label="配偶" />
+      <node id="王林芳" label="王林芳" />
+      <node id="马超腾" label="马超腾" />
+      <node id="广东省人民检察院" label="广东省人民检察院" />
+      <node id="王福岭" label="王福岭" />
+      <node id="北京世纪金源大饭店有限责任公司" label="北京世纪金源大饭店有限责任公司" />
+      <node id="张紫阳" label="张紫阳" />
+      <node id="吴礼中" label="吴礼中" />
+      <node id="张学华" label="张学华" />
+      <node id="张学友" label="张学友" />
+      <node id="徐鲁东" label="徐鲁东" />
+      <node id="珠海弘裕贸易有限公司" label="珠海弘裕贸易有限公司" />
+      <node id="蔡某" label="蔡某" />
+      <node id="王某2" label="王某2" />
+      <node id="王某3" label="王某3" />
+      <node id="王某1" label="王某1" />
+      <node id="张某2" label="张某2" />
+      <node id="张某3" label="张某3" />
+      <node id="张某1" label="张某1" />
+      <node id="谢某" label="谢某" />
+      <node id="吴鹏辉" label="吴鹏辉" />
+      <node id="晋安区沃达生鲜超市" label="晋安区沃达生鲜超市" />
+      <node id="肖飞" label="肖飞" />
+      <node id="江苏省人民检察院" label="江苏省人民检察院" />
+      <node id="北京丰盛品商贸有限" label="北京丰盛品商贸有限" />
+      <node id="王微" label="王微" />
+      <node id="方向" label="方向" />
+      <node id="佳格投资(中国)有限公司" label="佳格投资(中国)有限公司" />
+      <node id="湖北安星泰药业有限公司仁泰堂药房" label="湖北安星泰药业有限公司仁泰堂药房" />
+      <node id="左卫东" label="左卫东" />
+      <node id="王佳丽" label="王佳丽" />
+      <node id="左波" label="左波" />
+      <node id="李宝玉" label="李宝玉" />
+      <node id="青岛食品股份有限公司" label="青岛食品股份有限公司" />
+      <node id="武汉领创未来体育发展有限公司" label="武汉领创未来体育发展有限公司" />
+      <node id="刘硕" label="刘硕" />
+      <node id="李季洪" label="李季洪" />
+      <node id="崔毅" label="崔毅" />
+      <node id="刘少杰" label="刘少杰" />
+      <node id="王昊龙" label="王昊龙" />
+      <node id="贵州省人民检察院" label="贵州省人民检察院" />
+      <node id="王某" label="王某" />
+      <node id="尹某2" label="尹某2" />
+      <node id="尹某1" label="尹某1" />
+      <node id="许承凯" label="许承凯" />
+      <node id="谢志胜" label="谢志胜" />
+      <node id="何文鹏" label="何文鹏" />
+      <node id="孟州市百家乐商贸有限公司" label="孟州市百家乐商贸有限公司" />
+      <node id="黄思婷" label="黄思婷" />
+      <node id="黄黛彬" label="黄黛彬" />
+      <node id="周宜湘" label="周宜湘" />
+      <node id="颜友娥" label="颜友娥" />
+      <node id="孔某" label="孔某" />
+      <node id="黄绍珍" label="黄绍珍" />
+      <node id="黄拱坡" label="黄拱坡" />
+      <node id="屈任诗" label="屈任诗" />
+      <node id="黄思仪" label="黄思仪" />
+      <node id="李想" label="李想" />
+      <node id="靳宏昌" label="靳宏昌" />
+      <node id="卢海燕" label="卢海燕" />
+      <node id="胡明俊" label="胡明俊" />
+      <node id="黄光翠" label="黄光翠" />
+      <node id="王成" label="王成" />
+      <node id="何春艳" label="何春艳" />
+      <node id="贾兴良" label="贾兴良" />
+      <node id="贺爱华" label="贺爱华" />
+      <node id="王燕平" label="王燕平" />
+      <node id="王夏君" label="王夏君" />
+      <node id="陈春香" label="陈春香" />
+      <node id="袁青" label="袁青" />
+      <node id="李小红" label="李小红" />
+      <node id="何健" label="何健" />
+      <node id="肖月平" label="肖月平" />
+      <node id="姚书娟" label="姚书娟" />
+      <node id="卫文科" label="卫文科" />
+      <node id="佘从雨" label="佘从雨" />
+      <node id="徐元华" label="徐元华" />
+      <node id="王武军" label="王武军" />
+      <node id="深圳市宝安区石岩今稻百货" label="深圳市宝安区石岩今稻百货" />
+      <node id="浙江华鹊知德健康管理有限公司" label="浙江华鹊知德健康管理有限公司" />
+      <node id="浙江华鹊医药有限公司" label="浙江华鹊医药有限公司" />
+      <node id="浙江华鹊医药有限公司、浙江华鹊知德健康管理有限公司的" label="浙江华鹊医药有限公司、浙江华鹊知德健康管理有限公司的" />
+      <node id="北京毛家湾餐饮管理有限公司" label="北京毛家湾餐饮管理有限公司" />
+      <node id="张秋雷" label="张秋雷" />
+      <node id="厉洁" label="厉洁" />
+      <node id="王晓晖" label="王晓晖" />
+      <node id="广东省深圳市人民检察院" label="广东省深圳市人民检察院" />
+    </nodes>
+    <edges>
+      <edge source="黄飞" target="陈康" id="0" />
+      <edge source="贾龙" target="覃玉东" id="1" />
+      <edge source="余若菡" target="余某乙" id="2" />
+      <edge source="余若菡" target="余某甲" id="3" />
+      <edge source="余某乙" target="余某甲" id="4" />
+      <edge source="唐某乙" target="唐某甲" id="5" />
+      <edge source="丁琼" target="杨丽芬" id="6" />
+      <edge source="白世桥" target="申元生" id="7" />
+      <edge source="白世桥" target="韦凯" id="8" />
+      <edge source="申元生" target="韦凯" id="9" />
+      <edge source="曲继发" target="杜吉兰" id="10" />
+      <edge source="陈强" target="张燕(陈强妻子)" id="11" />
+      <edge source="杨沪霞" target="杨汝霞" id="12" />
+      <edge source="杨沪霞" target="杨浮霞" id="13" />
+      <edge source="杨沪霞" target="杨廷信" id="14" />
+      <edge source="杨汝霞" target="杨浮霞" id="15" />
+      <edge source="杨汝霞" target="杨廷信" id="16" />
+      <edge source="杨浮霞" target="杨廷信" id="17" />
+      <edge source="品佳品食品(深圳)有限公司宝安分公司" target="张恒" id="18" />
+      <edge source="王甲(同时受陶甲的授权委托)" target="陶甲" id="19" />
+      <edge source="衣洪波" target="张永利" id="20" />
+      <edge source="史瑞杰" target="范俊刚" id="21" />
+      <edge source="史瑞杰" target="史瑞瑞" id="22" />
+      <edge source="史瑞杰" target="史瑞莲" id="23" />
+      <edge source="史瑞杰" target="美可高特羊乳有限公司" id="24" />
+      <edge source="范俊刚" target="史瑞瑞" id="25" />
+      <edge source="范俊刚" target="史瑞莲" id="26" />
+      <edge source="刘进(同时受王月芹特别授权委托)" target="王月芹" id="27" />
+      <edge source="王月芹" target="刘进" id="28" />
+      <edge source="吕勇郭" target="张燕" id="29" />
+      <edge source="潘正清(同时受黄文雅的特别授权委托)" target="黄文雅" id="30" />
+      <edge source="梁凤林" target="刘八凯" id="31" />
+      <edge source="邓华" target="首都大酒店" id="32" />
+      <edge source="叶润军" target="广西壮族自治区人民检察院" id="33" />
+      <edge source="张海洋暨" target="赵东梅" id="34" />
+      <edge source="王彩玲" target="张蒙蒙" id="35" />
+      <edge source="妹夫" target="王桂红" id="36" />
+      <edge source="史瑞瑞" target="史瑞莲" id="37" />
+      <edge source="左政" target="朱秋华" id="38" />
+      <edge source="公司员工" target="林天斌" id="39" />
+      <edge source="闫运涛" target="冉庆博" id="40" />
+      <edge source="李国锋" target="王军" id="41" />
+      <edge source="李国锋" target="陶思伟" id="42" />
+      <edge source="李国锋" target="李信国" id="43" />
+      <edge source="李国锋" target="叶敏" id="44" />
+      <edge source="王军" target="陶思伟" id="45" />
+      <edge source="王军" target="李信国" id="46" />
+      <edge source="王军" target="叶敏" id="47" />
+      <edge source="陶思伟" target="李信国" id="48" />
+      <edge source="陶思伟" target="叶敏" id="49" />
+      <edge source="李信国" target="叶敏" id="50" />
+      <edge source="冯志波" target="云南善尊茶业有限公司" id="51" />
+      <edge source="云南滇隆制药有限公司" target="覃安洪" id="52" />
+      <edge source="重庆桐君阁股份有限公司" target="重庆桐君阁大药房连锁有限责任公司" id="53" />
+      <edge source="河南省人民检察院" target="李可" id="54" />
+      <edge source="徐克勇" target="徐忠" id="55" />
+      <edge source="梧州龙山酒业有限公司" target="牟家文" id="56" />
+      <edge source="周三根" target="东莞市中润超级市场有限公司" id="57" />
+      <edge source="陈敦刚" target="菲仕兰食品贸易(上海)有限公司" id="58" />
+      <edge source="湛江市杰尔康贸易有限公司" target="梁振群" id="59" />
+      <edge source="湛江市杰尔康贸易有限公司" target="江金龙" id="60" />
+      <edge source="蒋海飞" target="侯知规" id="61" />
+      <edge source="浙江淘宝网络有限公司" target="叶谷珍" id="62" />
+      <edge source="潘正艳" target="朱玉娄" id="63" />
+      <edge source="熊柏林" target="陈刚" id="64" />
+      <edge source="邢志红" target="山西省人民检察院" id="65" />
+      <edge source="王成江" target="沈阳大润发商业有限公司" id="66" />
+      <edge source="惠州市金宝购物连锁有限公司" target="汤润富" id="67" />
+      <edge source="惠州市金宝购物连锁有限公司" target="惠州市金宝购物连锁有限公司江畔店" id="68" />
+      <edge source="汤润富" target="惠州市金宝购物连锁有限公司江畔店" id="69" />
+      <edge source="李宗胜" target="李宗丰" id="70" />
+      <edge source="陈雷" target="北京酒葫芦电子商务有限公司" id="71" />
+      <edge source="陈煌灿" target="陈煌辉" id="72" />
+      <edge source="曾少华" target="向程" id="73" />
+      <edge source="永州步步高商业连锁有限责任公司冷水滩分公司" target="李塑来" id="74" />
+      <edge source="杨树林" target="瞿希望" id="75" />
+      <edge source="闫可亲" target="闫世亮" id="76" />
+      <edge source="谢嘉明" target="吴泽齐" id="77" />
+      <edge source="刘冬梅" target="王鹏飞" id="78" />
+      <edge source="江苏银行股份有限公司杭州分行" target="季海燕" id="79" />
+      <edge source="季海燕" target="刘少杰" id="80" />
+      <edge source="马树根" target="潘世红" id="81" />
+      <edge source="皮嫣" target="马志强" id="82" />
+      <edge source="马文萱" target="王思杰" id="83" />
+      <edge source="熊某某" target="陈某" id="84" />
+      <edge source="深圳市人民检察院" target="陈明江" id="85" />
+      <edge source="广东省广州市人民检察院" target="广东省消费者委员会" id="86" />
+      <edge source="广东省消费者委员会" target="广东省深圳市人民检察院" id="87" />
+      <edge source="陆萍" target="配偶" id="88" />
+      <edge source="王林芳" target="马超腾" id="89" />
+      <edge source="广东省人民检察院" target="王福岭" id="90" />
+      <edge source="北京世纪金源大饭店有限责任公司" target="张紫阳" id="91" />
+      <edge source="吴礼中" target="张学华" id="92" />
+      <edge source="吴礼中" target="张学友" id="93" />
+      <edge source="张学华" target="张学友" id="94" />
+      <edge source="徐鲁东" target="珠海弘裕贸易有限公司" id="95" />
+      <edge source="蔡某" target="王某2" id="96" />
+      <edge source="蔡某" target="王某3" id="97" />
+      <edge source="蔡某" target="王某1" id="98" />
+      <edge source="蔡某" target="张某2" id="99" />
+      <edge source="蔡某" target="张某3" id="100" />
+      <edge source="蔡某" target="张某1" id="101" />
+      <edge source="蔡某" target="谢某" id="102" />
+      <edge source="王某2" target="王某3" id="103" />
+      <edge source="王某2" target="王某1" id="104" />
+      <edge source="王某3" target="王某1" id="105" />
+      <edge source="张某2" target="张某3" id="106" />
+      <edge source="张某2" target="张某1" id="107" />
+      <edge source="张某3" target="张某1" id="108" />
+      <edge source="吴鹏辉" target="晋安区沃达生鲜超市" id="109" />
+      <edge source="肖飞" target="江苏省人民检察院" id="110" />
+      <edge source="北京丰盛品商贸有限" target="王微" id="111" />
+      <edge source="方向" target="佳格投资(中国)有限公司" id="112" />
+      <edge source="湖北安星泰药业有限公司仁泰堂药房" target="左卫东" id="113" />
+      <edge source="王佳丽" target="左波" id="114" />
+      <edge source="李宝玉" target="青岛食品股份有限公司" id="115" />
+      <edge source="武汉领创未来体育发展有限公司" target="刘硕" id="116" />
+      <edge source="李季洪" target="崔毅" id="117" />
+      <edge source="王昊龙" target="贵州省人民检察院" id="118" />
+      <edge source="王某" target="尹某2" id="119" />
+      <edge source="王某" target="尹某1" id="120" />
+      <edge source="尹某2" target="尹某1" id="121" />
+      <edge source="许承凯" target="谢志胜" id="122" />
+      <edge source="何文鹏" target="孟州市百家乐商贸有限公司" id="123" />
+      <edge source="黄思婷" target="黄黛彬" id="124" />
+      <edge source="黄思婷" target="周宜湘" id="125" />
+      <edge source="黄思婷" target="颜友娥" id="126" />
+      <edge source="黄思婷" target="孔某" id="127" />
+      <edge source="黄思婷" target="黄绍珍" id="128" />
+      <edge source="黄思婷" target="黄拱坡" id="129" />
+      <edge source="黄思婷" target="屈任诗" id="130" />
+      <edge source="黄思婷" target="黄思仪" id="131" />
+      <edge source="黄黛彬" target="周宜湘" id="132" />
+      <edge source="黄黛彬" target="颜友娥" id="133" />
+      <edge source="黄黛彬" target="孔某" id="134" />
+      <edge source="黄黛彬" target="黄绍珍" id="135" />
+      <edge source="黄黛彬" target="黄拱坡" id="136" />
+      <edge source="黄黛彬" target="屈任诗" id="137" />
+      <edge source="黄黛彬" target="黄思仪" id="138" />
+      <edge source="周宜湘" target="颜友娥" id="139" />
+      <edge source="周宜湘" target="孔某" id="140" />
+      <edge source="周宜湘" target="黄绍珍" id="141" />
+      <edge source="周宜湘" target="黄拱坡" id="142" />
+      <edge source="周宜湘" target="屈任诗" id="143" />
+      <edge source="周宜湘" target="黄思仪" id="144" />
+      <edge source="颜友娥" target="孔某" id="145" />
+      <edge source="颜友娥" target="黄绍珍" id="146" />
+      <edge source="颜友娥" target="黄拱坡" id="147" />
+      <edge source="颜友娥" target="屈任诗" id="148" />
+      <edge source="颜友娥" target="黄思仪" id="149" />
+      <edge source="孔某" target="黄绍珍" id="150" />
+      <edge source="孔某" target="黄拱坡" id="151" />
+      <edge source="孔某" target="屈任诗" id="152" />
+      <edge source="孔某" target="黄思仪" id="153" />
+      <edge source="黄绍珍" target="黄拱坡" id="154" />
+      <edge source="黄绍珍" target="屈任诗" id="155" />
+      <edge source="黄绍珍" target="黄思仪" id="156" />
+      <edge source="黄拱坡" target="屈任诗" id="157" />
+      <edge source="黄拱坡" target="黄思仪" id="158" />
+      <edge source="屈任诗" target="黄思仪" id="159" />
+      <edge source="李想" target="靳宏昌" id="160" />
+      <edge source="卢海燕" target="胡明俊" id="161" />
+      <edge source="黄光翠" target="王成" id="162" />
+      <edge source="何春艳" target="贾兴良" id="163" />
+      <edge source="贺爱华" target="王燕平" id="164" />
+      <edge source="王夏君" target="陈春香" id="165" />
+      <edge source="袁青" target="李小红" id="166" />
+      <edge source="何健" target="肖月平" id="167" />
+      <edge source="姚书娟" target="卫文科" id="168" />
+      <edge source="佘从雨" target="徐元华" id="169" />
+      <edge source="王武军" target="深圳市宝安区石岩今稻百货" id="170" />
+      <edge source="浙江华鹊知德健康管理有限公司" target="浙江华鹊医药有限公司" id="171" />
+      <edge source="浙江华鹊知德健康管理有限公司" target="浙江华鹊医药有限公司、浙江华鹊知德健康管理有限公司的" id="172" />
+      <edge source="浙江华鹊医药有限公司" target="浙江华鹊医药有限公司、浙江华鹊知德健康管理有限公司的" id="173" />
+      <edge source="北京毛家湾餐饮管理有限公司" target="张秋雷" id="174" />
+      <edge source="厉洁" target="王晓晖" id="175" />
+    </edges>
+  </graph>
+</gexf>
