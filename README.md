@@ -46,3 +46,14 @@
 			+  plaintiffCommunityAnalysis
 				+  Prove the validity of community in graph G_3 in active_plaintiff_patterns4
 				+  Analyse lawyers of communities
+	+ reasonExtract
+		+ caseReasonExtract
+			+ extract case reasons through reason keywords match, and then vote match times to find the primary reason
+		+  LDA
+			+  Find case reason categories and keywords in each category from "court held" contents
+		+  resultDisplay
+			+  Descriptive information for case reasons
+		+  textcnn
+			+  classify "court held" content into specific case reason with self-defined reason category
+	+  case_crawler
+		+  Lawsdata website crawler based on python Scrapy frame
