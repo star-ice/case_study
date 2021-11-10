@@ -1,6 +1,9 @@
 # case_study
 
+![alt text](https://github.com/star-ice/case_study/materials/project_steps.svg?raw=true)
+
 <p>case_study_result stores all figures and text results.</p>
+
 <p>After opening .html files in browser, figures can be downlowded with .png format from the webpage.</p>
 
 <p>data contains all case information which was stored as csv file and can be viewed in excel.</p>
