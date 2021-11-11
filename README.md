@@ -10,8 +10,6 @@
 
 + After opening .html files in browser, figures can be downlowded with .png format from the webpage.
 
-+ Directory *data* contains all case information which was stored as csv file and can be viewed in excel.
-
 + Directory *to_be_checked* contains files that need to be corrected by Profs.
 
 ### Code Interpretation
