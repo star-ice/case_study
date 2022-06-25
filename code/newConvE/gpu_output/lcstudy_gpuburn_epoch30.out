@@ -1,0 +1,1218 @@
+Obtaining bashmagic from git+git://github.com/TimDettmers/bashmagic.git#egg=bashmagic (from -r requirements.txt (line 8))
+  Updating ./src/bashmagic clone
+Requirement already satisfied: scipy in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (1.8.0)
+Requirement already satisfied: spacy in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (3.2.3)
+Requirement already satisfied: numpy in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from -r requirements.txt (line 3)) (1.19.2)
+Requirement already satisfied: scikit-learn in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (1.0.2)
+Requirement already satisfied: h5py in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (3.6.0)
+Requirement already satisfied: future in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (0.18.2)
+Requirement already satisfied: nltk in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (3.7)
+Requirement already satisfied: wasabi<1.1.0,>=0.8.1 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (0.9.0)
+Requirement already satisfied: blis<0.8.0,>=0.4.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (0.7.7)
+Requirement already satisfied: typer<0.5.0,>=0.3.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (0.4.0)
+Requirement already satisfied: pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (1.8.2)
+Requirement already satisfied: catalogue<2.1.0,>=2.0.6 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (2.0.7)
+Requirement already satisfied: spacy-loggers<2.0.0,>=1.0.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (1.0.1)
+Requirement already satisfied: spacy-legacy<3.1.0,>=3.0.8 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (3.0.9)
+Requirement already satisfied: setuptools in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (58.0.4)
+Requirement already satisfied: langcodes<4.0.0,>=3.2.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (3.3.0)
+Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (3.0.6)
+Requirement already satisfied: packaging>=20.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (21.3)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (2.0.6)
+Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (4.63.1)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (1.0.6)
+Requirement already satisfied: srsly<3.0.0,>=2.4.1 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (2.4.2)
+Requirement already satisfied: jinja2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (3.1.1)
+Requirement already satisfied: thinc<8.1.0,>=8.0.12 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (8.0.15)
+Requirement already satisfied: pathy>=0.3.5 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (0.6.1)
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy->-r requirements.txt (line 2)) (2.27.1)
+Requirement already satisfied: joblib>=0.11 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from scikit-learn->-r requirements.txt (line 4)) (1.1.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from scikit-learn->-r requirements.txt (line 4)) (3.1.0)
+Requirement already satisfied: regex>=2021.8.3 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from nltk->-r requirements.txt (line 7)) (2022.3.15)
+Requirement already satisfied: click in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from nltk->-r requirements.txt (line 7)) (8.0.4)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from packaging>=20.0->spacy->-r requirements.txt (line 2)) (3.0.7)
+Requirement already satisfied: smart-open<6.0.0,>=5.0.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from pathy>=0.3.5->spacy->-r requirements.txt (line 2)) (5.2.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4->spacy->-r requirements.txt (line 2)) (4.1.1)
+Requirement already satisfied: idna<4,>=2.5 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy->-r requirements.txt (line 2)) (3.3)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy->-r requirements.txt (line 2)) (1.26.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy->-r requirements.txt (line 2)) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy->-r requirements.txt (line 2)) (2021.10.8)
+Requirement already satisfied: MarkupSafe>=2.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from jinja2->spacy->-r requirements.txt (line 2)) (2.1.1)
+Installing collected packages: bashmagic
+  Attempting uninstall: bashmagic
+    Found existing installation: bashmagic 0.0.1
+    Uninstalling bashmagic-0.0.1:
+      Successfully uninstalled bashmagic-0.0.1
+  Running setup.py develop for bashmagic
+Successfully installed bashmagic-0.0.1
+Collecting en-core-web-sm==3.2.0
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0-py3-none-any.whl (13.9 MB)
+Requirement already satisfied: spacy<3.3.0,>=3.2.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from en-core-web-sm==3.2.0) (3.2.3)
+Requirement already satisfied: jinja2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (3.1.1)
+Requirement already satisfied: spacy-loggers<2.0.0,>=1.0.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (1.0.1)
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (2.27.1)
+Requirement already satisfied: srsly<3.0.0,>=2.4.1 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (2.4.2)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (1.0.6)
+Requirement already satisfied: pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (1.8.2)
+Requirement already satisfied: setuptools in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (58.0.4)
+Requirement already satisfied: typer<0.5.0,>=0.3.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (0.4.0)
+Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (3.0.6)
+Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (4.63.1)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (2.0.6)
+Requirement already satisfied: numpy>=1.15.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (1.19.2)
+Requirement already satisfied: packaging>=20.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (21.3)
+Requirement already satisfied: catalogue<2.1.0,>=2.0.6 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (2.0.7)
+Requirement already satisfied: pathy>=0.3.5 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (0.6.1)
+Requirement already satisfied: spacy-legacy<3.1.0,>=3.0.8 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (3.0.9)
+Requirement already satisfied: wasabi<1.1.0,>=0.8.1 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (0.9.0)
+Requirement already satisfied: thinc<8.1.0,>=8.0.12 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (8.0.15)
+Requirement already satisfied: langcodes<4.0.0,>=3.2.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (3.3.0)
+Requirement already satisfied: blis<0.8.0,>=0.4.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (0.7.7)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from packaging>=20.0->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (3.0.7)
+Requirement already satisfied: smart-open<6.0.0,>=5.0.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from pathy>=0.3.5->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (5.2.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (4.1.1)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (2.0.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (1.26.8)
+Requirement already satisfied: idna<4,>=2.5 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (3.3)
+Requirement already satisfied: certifi>=2017.4.17 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (2021.10.8)
+Requirement already satisfied: click<9.0.0,>=7.1.1 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from typer<0.5.0,>=0.3.0->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (8.0.4)
+Requirement already satisfied: MarkupSafe>=2.0 in /gpfs1/home/longttang2/eth/anaconda3/envs/yblian2/lib/python3.9/site-packages (from jinja2->spacy<3.3.0,>=3.2.0->en-core-web-sm==3.2.0) (2.1.1)
+[38;5;3m⚠ As of spaCy v3.0, shortcuts like 'en' are deprecated. Please use the
+full pipeline package name 'en_core_web_sm' instead.[0m
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_sm')
+Processing dataset LegalCaseStudy
+2022-03-29 03:38:58.491687 (WARNING): Pipeline path /home/longttang2/.data/LegalCaseStudy already exist. This pipeline may overwrite data in this path!
+2022-03-29 03:38:58.493565 (INFO): Loading vocab from: /home/longttang2/.data/LegalCaseStudy/vocab
+2022-03-29 03:38:58.493699 (INFO): Loading vocab from: /home/longttang2/.data/LegalCaseStudy/vocab_e1
+2022-03-29 03:38:58.532746 (INFO): Loading vocab from: /home/longttang2/.data/LegalCaseStudy/vocab_rel
+2022-03-29 03:38:58.532894 (INFO): Loading vocab from: /home/longttang2/.data/LegalCaseStudy/vocab_rel_eval
+2022-03-29 03:38:58.532961 (INFO): Loading vocab from: /home/longttang2/.data/LegalCaseStudy/vocab_e2
+2022-03-29 03:38:58.533025 (INFO): Loading vocab from: /home/longttang2/.data/LegalCaseStudy/vocab_e2_multi1
+2022-03-29 03:38:58.567249 (INFO): Loading vocab from: /home/longttang2/.data/LegalCaseStudy/vocab_e2_multi2
+50182 26
+[50182, 10036400, 5200, 288, 1, 1, 32, 32, 200, 200, 1945600, 200]
+12038336
+2022-03-29 03:40:06.687828 (INFO): train Loss: 0.042051	99% CI: (0.015761, 0.06834), n=100
+2022-03-29 03:41:31.292788 (INFO): train ETA: 0:06:36	99% CI: (0:06:27, 0:06:44), n=100
+2022-03-29 03:41:31.293224 (INFO): train Loss: 0.0016256	99% CI: (0.0015351, 0.0017161), n=100
+2022-03-29 03:42:21.182763 (INFO): train ETA: 0:05:59	99% CI: (0:05:51, 0:06:06), n=100
+2022-03-29 03:42:21.188685 (INFO): train Loss: 0.00094852	99% CI: (0.00089959, 0.00099744), n=100
+2022-03-29 03:43:03.629148 (INFO): train ETA: 0:04:15	99% CI: (0:04:13, 0:04:18), n=100
+2022-03-29 03:43:03.629460 (INFO): train Loss: 0.0007505	99% CI: (0.00068404, 0.00081697), n=100
+2022-03-29 03:43:25.346338 (INFO): train ETA: 0:02:49	99% CI: (0:02:45, 0:02:53), n=100
+2022-03-29 03:43:25.346644 (INFO): train Loss: 0.00063985	99% CI: (0.00059297, 0.00068672), n=100
+2022-03-29 03:43:40.882892 (INFO): train ETA: 0:01:43	99% CI: (0:01:40, 0:01:46), n=100
+2022-03-29 03:43:40.883235 (INFO): train Loss: 0.00063479	99% CI: (0.00054983, 0.00071976), n=100
+2022-03-29 03:43:51.469723 (INFO): train ETA: 0:00:51	99% CI: (0:00:48, 0:00:54), n=100
+2022-03-29 03:43:51.470049 (INFO): train Loss: 0.00061012	99% CI: (0.00053307, 0.00068718), n=100
+2022-03-29 03:43:59.240515 (INFO): Total epoch time: 0:04:56
+2022-03-29 03:43:59.241108 (INFO): 
+
+2022-03-29 03:43:59.241129 (INFO): ########################################
+2022-03-29 03:43:59.241145 (INFO):           COMPLETED EPOCH: 1                              
+2022-03-29 03:43:59.241150 (INFO): train Loss: 0.00057686	99% CI: (0.00049398, 0.00065973), n=78
+2022-03-29 03:43:59.241156 (INFO): ########################################
+2022-03-29 03:43:59.241161 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 03:44:09.409418 (INFO): train Loss: 0.00055304	99% CI: (0.00051044, 0.00059564), n=100
+2022-03-29 03:44:11.267482 (INFO): train ETA: 0:01:07	99% CI: (0:01:07, 0:01:08), n=100
+2022-03-29 03:44:20.154398 (INFO): train Loss: 0.0006253	99% CI: (0.00052538, 0.00072522), n=100
+2022-03-29 03:44:22.266166 (INFO): train ETA: 0:00:56	99% CI: (0:00:56, 0:00:57), n=100
+2022-03-29 03:44:29.259261 (INFO): train Loss: 0.00059643	99% CI: (0.00052922, 0.00066364), n=100
+2022-03-29 03:44:30.931246 (INFO): train ETA: 0:00:46	99% CI: (0:00:46, 0:00:46), n=100
+2022-03-29 03:44:38.660522 (INFO): train Loss: 0.00053241	99% CI: (0.0004689, 0.00059593), n=100
+2022-03-29 03:44:40.632889 (INFO): train ETA: 0:00:34	99% CI: (0:00:34, 0:00:34), n=100
+2022-03-29 03:44:47.663725 (INFO): train Loss: 0.00056368	99% CI: (0.00050375, 0.00062361), n=100
+2022-03-29 03:44:49.544469 (INFO): train ETA: 0:00:25	99% CI: (0:00:25, 0:00:25), n=100
+2022-03-29 03:44:56.701299 (INFO): train Loss: 0.00058174	99% CI: (0.00048425, 0.00067922), n=100
+2022-03-29 03:44:58.767665 (INFO): train ETA: 0:00:15	99% CI: (0:00:15, 0:00:15), n=100
+2022-03-29 03:45:06.319251 (INFO): train Loss: 0.00052394	99% CI: (0.00047076, 0.00057711), n=100
+2022-03-29 03:45:08.133952 (INFO): train ETA: 0:00:05	99% CI: (0:00:05, 0:00:05), n=100
+2022-03-29 03:45:13.203245 (INFO): Total epoch time: 0:01:13
+2022-03-29 03:45:13.203839 (INFO): 
+
+2022-03-29 03:45:13.203857 (INFO): ########################################
+2022-03-29 03:45:13.203866 (INFO):           COMPLETED EPOCH: 2                              
+2022-03-29 03:45:13.203871 (INFO): train Loss: 0.00051045	99% CI: (0.00047487, 0.00054603), n=78
+2022-03-29 03:45:13.203876 (INFO): ########################################
+2022-03-29 03:45:13.203881 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 03:45:22.168706 (INFO): train Loss: 0.0005378	99% CI: (0.00048057, 0.00059504), n=100
+2022-03-29 03:45:26.125889 (INFO): train ETA: 0:00:56	99% CI: (0:00:56, 0:00:57), n=100
+2022-03-29 03:45:30.937101 (INFO): train Loss: 0.00054064	99% CI: (0.00048784, 0.00059345), n=100
+2022-03-29 03:45:34.463762 (INFO): train ETA: 0:00:47	99% CI: (0:00:47, 0:00:47), n=100
+2022-03-29 03:45:39.210278 (INFO): train Loss: 0.00054726	99% CI: (0.00049404, 0.00060049), n=100
+2022-03-29 03:45:42.847431 (INFO): train ETA: 0:00:37	99% CI: (0:00:37, 0:00:37), n=100
+2022-03-29 03:45:47.616617 (INFO): train Loss: 0.00055017	99% CI: (0.00048962, 0.00061072), n=100
+2022-03-29 03:45:51.531385 (INFO): train ETA: 0:00:28	99% CI: (0:00:28, 0:00:28), n=100
+2022-03-29 03:45:56.420542 (INFO): train Loss: 0.00056062	99% CI: (0.00050337, 0.00061787), n=100
+2022-03-29 03:46:00.025698 (INFO): train ETA: 0:00:20	99% CI: (0:00:20, 0:00:20), n=100
+2022-03-29 03:46:04.837190 (INFO): train Loss: 0.0004903	99% CI: (0.0004526, 0.00052799), n=100
+2022-03-29 03:46:08.893605 (INFO): train ETA: 0:00:11	99% CI: (0:00:11, 0:00:11), n=100
+2022-03-29 03:46:13.823205 (INFO): train Loss: 0.00053326	99% CI: (0.00047836, 0.00058816), n=100
+2022-03-29 03:46:17.629217 (INFO): train ETA: 0:00:02	99% CI: (0:00:02, 0:00:02), n=100
+2022-03-29 03:46:20.748323 (INFO): Total epoch time: 0:01:07
+2022-03-29 03:46:20.748871 (INFO): 
+
+2022-03-29 03:46:20.748889 (INFO): ########################################
+2022-03-29 03:46:20.748897 (INFO):           COMPLETED EPOCH: 3                              
+2022-03-29 03:46:20.748903 (INFO): train Loss: 0.00054061	99% CI: (0.0004693, 0.00061191), n=78
+2022-03-29 03:46:20.748907 (INFO): ########################################
+2022-03-29 03:46:20.748914 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 03:46:29.725435 (INFO): train Loss: 0.0005133	99% CI: (0.00047186, 0.00055473), n=100
+2022-03-29 03:46:35.638814 (INFO): train ETA: 0:00:53	99% CI: (0:00:53, 0:00:54), n=100
+2022-03-29 03:46:38.373152 (INFO): train Loss: 0.00054143	99% CI: (0.0004814, 0.00060146), n=100
+2022-03-29 03:46:43.801810 (INFO): train ETA: 0:00:44	99% CI: (0:00:44, 0:00:44), n=100
+2022-03-29 03:46:46.973412 (INFO): train Loss: 0.00052398	99% CI: (0.00048732, 0.00056064), n=100
+2022-03-29 03:46:53.235357 (INFO): train ETA: 0:00:35	99% CI: (0:00:35, 0:00:35), n=100
+2022-03-29 03:46:55.654258 (INFO): train Loss: 0.00051807	99% CI: (0.0004612, 0.00057493), n=100
+2022-03-29 03:47:01.010897 (INFO): train ETA: 0:00:27	99% CI: (0:00:27, 0:00:27), n=100
+2022-03-29 03:47:03.779018 (INFO): train Loss: 0.0005543	99% CI: (0.00048444, 0.00062416), n=100
+2022-03-29 03:47:09.346781 (INFO): train ETA: 0:00:18	99% CI: (0:00:18, 0:00:18), n=100
+2022-03-29 03:47:12.266560 (INFO): train Loss: 0.00052657	99% CI: (0.00048673, 0.00056641), n=100
+2022-03-29 03:47:18.119978 (INFO): train ETA: 0:00:09	99% CI: (0:00:09, 0:00:09), n=100
+2022-03-29 03:47:21.285828 (INFO): train Loss: 0.00049937	99% CI: (0.00046519, 0.00053355), n=100
+2022-03-29 03:47:27.067501 (INFO): train ETA: 0:00:00	99% CI: (0:00:00, 0:00:00), n=100
+2022-03-29 03:47:28.268171 (INFO): Total epoch time: 0:01:07
+2022-03-29 03:47:28.268735 (INFO): 
+
+2022-03-29 03:47:28.268753 (INFO): ########################################
+2022-03-29 03:47:28.268763 (INFO):           COMPLETED EPOCH: 4                              
+2022-03-29 03:47:28.268768 (INFO): train Loss: 0.00051458	99% CI: (0.00046379, 0.00056536), n=78
+2022-03-29 03:47:28.268773 (INFO): ########################################
+2022-03-29 03:47:28.268778 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 03:47:37.112810 (INFO): train Loss: 0.00057747	99% CI: (0.00047866, 0.00067628), n=100
+2022-03-29 03:47:44.688024 (INFO): train ETA: 0:00:50	99% CI: (0:00:50, 0:00:50), n=100
+2022-03-29 03:47:45.575730 (INFO): train Loss: 0.00052321	99% CI: (0.0004781, 0.00056831), n=100
+2022-03-29 03:47:53.362249 (INFO): train ETA: 0:00:41	99% CI: (0:00:41, 0:00:41), n=100
+2022-03-29 03:47:54.389496 (INFO): train Loss: 0.00057903	99% CI: (0.00048718, 0.00067088), n=100
+2022-03-29 03:48:01.785147 (INFO): train ETA: 0:00:33	99% CI: (0:00:33, 0:00:33), n=100
+2022-03-29 03:48:03.070229 (INFO): train Loss: 0.00053677	99% CI: (0.00048235, 0.00059119), n=100
+2022-03-29 03:48:10.953143 (INFO): train ETA: 0:00:25	99% CI: (0:00:25, 0:00:25), n=100
+2022-03-29 03:48:12.048789 (INFO): train Loss: 0.00055703	99% CI: (0.00048347, 0.0006306), n=100
+2022-03-29 03:48:19.947169 (INFO): train ETA: 0:00:16	99% CI: (0:00:16, 0:00:16), n=100
+2022-03-29 03:48:20.928892 (INFO): train Loss: 0.00051213	99% CI: (0.00047749, 0.00054676), n=100
+2022-03-29 03:48:28.493953 (INFO): train ETA: 0:00:07	99% CI: (0:00:07, 0:00:07), n=100
+2022-03-29 03:48:29.473054 (INFO): train Loss: 0.00050412	99% CI: (0.00046325, 0.00054498), n=100
+2022-03-29 03:48:36.343317 (INFO): Total epoch time: 0:01:07
+2022-03-29 03:48:36.344075 (INFO): 
+
+2022-03-29 03:48:36.344100 (INFO): ########################################
+2022-03-29 03:48:36.344110 (INFO):           COMPLETED EPOCH: 5                              
+2022-03-29 03:48:36.344115 (INFO): train Loss: 0.00051702	99% CI: (0.00046452, 0.00056953), n=78
+2022-03-29 03:48:36.344121 (INFO): ########################################
+2022-03-29 03:48:36.344126 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 03:48:44.658493 (INFO): train Loss: 0.0004842	99% CI: (0.00045708, 0.00051131), n=100
+2022-03-29 03:48:45.466587 (INFO): train ETA: 0:00:52	99% CI: (0:00:52, 0:00:53), n=100
+2022-03-29 03:48:53.188063 (INFO): train Loss: 0.00053712	99% CI: (0.00048352, 0.00059071), n=100
+2022-03-29 03:48:54.169563 (INFO): train ETA: 0:00:46	99% CI: (0:00:46, 0:00:47), n=100
+2022-03-29 03:49:02.208784 (INFO): train Loss: 0.00049662	99% CI: (0.00045279, 0.00054044), n=100
+2022-03-29 03:49:03.011988 (INFO): train ETA: 0:00:39	99% CI: (0:00:39, 0:00:39), n=100
+2022-03-29 03:49:11.248942 (INFO): train Loss: 0.00049598	99% CI: (0.00044922, 0.00054273), n=100
+2022-03-29 03:49:12.112191 (INFO): train ETA: 0:00:31	99% CI: (0:00:31, 0:00:31), n=100
+2022-03-29 03:49:20.226486 (INFO): train Loss: 0.00051157	99% CI: (0.00046634, 0.00055679), n=100
+2022-03-29 03:49:21.213266 (INFO): train ETA: 0:00:22	99% CI: (0:00:22, 0:00:23), n=100
+2022-03-29 03:49:29.601370 (INFO): train Loss: 0.00051888	99% CI: (0.00048017, 0.00055759), n=100
+2022-03-29 03:49:30.417149 (INFO): train ETA: 0:00:14	99% CI: (0:00:14, 0:00:14), n=100
+2022-03-29 03:49:37.811098 (INFO): train Loss: 0.00048126	99% CI: (0.00045504, 0.00050749), n=100
+2022-03-29 03:49:38.542568 (INFO): train ETA: 0:00:06	99% CI: (0:00:06, 0:00:06), n=100
+2022-03-29 03:49:44.475551 (INFO): Total epoch time: 0:01:07
+2022-03-29 03:49:44.476167 (INFO): 
+
+2022-03-29 03:49:44.476187 (INFO): ########################################
+2022-03-29 03:49:44.476197 (INFO):           COMPLETED EPOCH: 6                              
+2022-03-29 03:49:44.476203 (INFO): train Loss: 0.00053316	99% CI: (0.00047327, 0.00059306), n=78
+2022-03-29 03:49:44.476209 (INFO): ########################################
+2022-03-29 03:49:44.476214 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 03:49:44.710754 (INFO): 
+2022-03-29 03:49:44.710805 (INFO): --------------------------------------------------
+2022-03-29 03:49:44.710812 (INFO): dev_evaluation
+2022-03-29 03:49:44.710820 (INFO): --------------------------------------------------
+2022-03-29 03:49:44.710825 (INFO): 
+2022-03-29 04:00:36.085350 (INFO): Hits left @1: 0.004452659970238095
+2022-03-29 04:00:36.088072 (INFO): Hits right @1: 0.00017438616071428572
+2022-03-29 04:00:36.094130 (INFO): Hits @1: 0.0023135230654761905
+2022-03-29 04:00:36.096860 (INFO): Hits left @2: 0.05800083705357143
+2022-03-29 04:00:36.099632 (INFO): Hits right @2: 0.00030226934523809525
+2022-03-29 04:00:36.105549 (INFO): Hits @2: 0.02915155319940476
+2022-03-29 04:00:36.108276 (INFO): Hits left @3: 0.073974609375
+2022-03-29 04:00:36.110990 (INFO): Hits right @3: 0.0007556733630952381
+2022-03-29 04:00:36.116449 (INFO): Hits @3: 0.037365141369047616
+2022-03-29 04:00:36.119263 (INFO): Hits left @4: 0.07840401785714286
+2022-03-29 04:00:36.122068 (INFO): Hits right @4: 0.0007905505952380952
+2022-03-29 04:00:36.127668 (INFO): Hits @4: 0.03959728422619048
+2022-03-29 04:00:36.130413 (INFO): Hits left @5: 0.09280831473214286
+2022-03-29 04:00:36.133162 (INFO): Hits right @5: 0.0008370535714285714
+2022-03-29 04:00:36.138954 (INFO): Hits @5: 0.04682268415178571
+2022-03-29 04:00:36.141748 (INFO): Hits left @6: 0.13004557291666666
+2022-03-29 04:00:36.144433 (INFO): Hits right @6: 0.0009533110119047619
+2022-03-29 04:00:36.150027 (INFO): Hits @6: 0.06549944196428571
+2022-03-29 04:00:36.152598 (INFO): Hits left @7: 0.13154529389880953
+2022-03-29 04:00:36.155430 (INFO): Hits right @7: 0.000999813988095238
+2022-03-29 04:00:36.160645 (INFO): Hits @7: 0.06627255394345238
+2022-03-29 04:00:36.163279 (INFO): Hits left @8: 0.13337053571428573
+2022-03-29 04:00:36.165980 (INFO): Hits right @8: 0.0010695684523809525
+2022-03-29 04:00:36.171501 (INFO): Hits @8: 0.06722005208333333
+2022-03-29 04:00:36.174227 (INFO): Hits left @9: 0.16665504092261904
+2022-03-29 04:00:36.176850 (INFO): Hits right @9: 0.0010695684523809525
+2022-03-29 04:00:36.182492 (INFO): Hits @9: 0.0838623046875
+2022-03-29 04:00:36.185201 (INFO): Hits left @10: 0.17242140997023808
+2022-03-29 04:00:36.187961 (INFO): Hits right @10: 0.0011625744047619048
+2022-03-29 04:00:36.193824 (INFO): Hits @10: 0.0867919921875
+2022-03-29 04:00:36.206961 (INFO): Mean rank left: 10885.275588262648
+2022-03-29 04:00:36.216013 (INFO): Mean rank right: 27861.092424665178
+2022-03-29 04:00:36.229912 (INFO): Mean rank: 19373.184006463915
+2022-03-29 04:00:36.236396 (INFO): Mean reciprocal rank left: 0.06253144327375715
+2022-03-29 04:00:36.242674 (INFO): Mean reciprocal rank right: 0.0007089296961122279
+2022-03-29 04:00:36.259351 (INFO): Mean reciprocal rank: 0.03162018648493468
+2022-03-29 04:00:36.291516 (INFO): 
+2022-03-29 04:00:36.291570 (INFO): --------------------------------------------------
+2022-03-29 04:00:36.291587 (INFO): test_evaluation
+2022-03-29 04:00:36.291593 (INFO): --------------------------------------------------
+2022-03-29 04:00:36.291598 (INFO): 
+2022-03-29 04:07:41.911713 (INFO): Hits left @1: 0.0024775752314814816
+2022-03-29 04:07:41.913690 (INFO): Hits right @1: 0.00047019675925925923
+2022-03-29 04:07:41.917540 (INFO): Hits @1: 0.0014738859953703704
+2022-03-29 04:07:41.919300 (INFO): Hits left @2: 0.060709635416666664
+2022-03-29 04:07:41.921194 (INFO): Hits right @2: 0.0007957175925925925
+2022-03-29 04:07:41.924585 (INFO): Hits @2: 0.03075267650462963
+2022-03-29 04:07:41.926254 (INFO): Hits left @3: 0.06342230902777778
+2022-03-29 04:07:41.928011 (INFO): Hits right @3: 0.001320167824074074
+2022-03-29 04:07:41.931367 (INFO): Hits @3: 0.03237123842592592
+2022-03-29 04:07:41.933400 (INFO): Hits left @4: 0.08027705439814815
+2022-03-29 04:07:41.935157 (INFO): Hits right @4: 0.001392505787037037
+2022-03-29 04:07:41.938700 (INFO): Hits @4: 0.040834780092592594
+2022-03-29 04:07:41.940392 (INFO): Hits left @5: 0.0970775462962963
+2022-03-29 04:07:41.942132 (INFO): Hits right @5: 0.001591435185185185
+2022-03-29 04:07:41.945923 (INFO): Hits @5: 0.04933449074074074
+2022-03-29 04:07:41.947751 (INFO): Hits left @6: 0.11906828703703703
+2022-03-29 04:07:41.949706 (INFO): Hits right @6: 0.0017541956018518518
+2022-03-29 04:07:41.953213 (INFO): Hits @6: 0.06041124131944445
+2022-03-29 04:07:41.954896 (INFO): Hits left @7: 0.12103949652777778
+2022-03-29 04:07:41.956667 (INFO): Hits right @7: 0.0017903645833333333
+2022-03-29 04:07:41.960040 (INFO): Hits @7: 0.06141493055555555
+2022-03-29 04:07:41.961932 (INFO): Hits left @8: 0.12266710069444445
+2022-03-29 04:07:41.963962 (INFO): Hits right @8: 0.001971209490740741
+2022-03-29 04:07:41.967629 (INFO): Hits @8: 0.062319155092592594
+2022-03-29 04:07:41.969332 (INFO): Hits left @9: 0.14020905671296297
+2022-03-29 04:07:41.971109 (INFO): Hits right @9: 0.0020616319444444445
+2022-03-29 04:07:41.974747 (INFO): Hits @9: 0.0711353443287037
+2022-03-29 04:07:41.976460 (INFO): Hits left @10: 0.15507450810185186
+2022-03-29 04:07:41.978215 (INFO): Hits right @10: 0.0022605613425925927
+2022-03-29 04:07:41.981719 (INFO): Hits @10: 0.07866753472222222
+2022-03-29 04:07:41.988982 (INFO): Mean rank left: 10217.659016927084
+2022-03-29 04:07:41.993058 (INFO): Mean rank right: 26995.604636863427
+2022-03-29 04:07:42.001132 (INFO): Mean rank: 18606.631826895256
+2022-03-29 04:07:42.005345 (INFO): Mean reciprocal rank left: 0.05758162296529526
+2022-03-29 04:07:42.009157 (INFO): Mean reciprocal rank right: 0.0013575483754795102
+2022-03-29 04:07:42.017210 (INFO): Mean reciprocal rank: 0.029469585670387384
+2022-03-29 04:07:50.209055 (INFO): train Loss: 0.00054999	99% CI: (0.0004934, 0.00060658), n=100
+2022-03-29 04:07:53.210525 (INFO): train ETA: 0:00:51	99% CI: (0:00:50, 0:00:51), n=100
+2022-03-29 04:07:58.762431 (INFO): train Loss: 0.00050068	99% CI: (0.00046515, 0.00053621), n=100
+2022-03-29 04:08:01.171082 (INFO): train ETA: 0:00:45	99% CI: (0:00:45, 0:00:46), n=100
+2022-03-29 04:08:07.111238 (INFO): train Loss: 0.00047915	99% CI: (0.0004519, 0.0005064), n=100
+2022-03-29 04:08:10.048435 (INFO): train ETA: 0:00:36	99% CI: (0:00:36, 0:00:37), n=100
+2022-03-29 04:08:15.944465 (INFO): train Loss: 0.00053675	99% CI: (0.00048093, 0.00059257), n=100
+2022-03-29 04:08:18.492588 (INFO): train ETA: 0:00:29	99% CI: (0:00:29, 0:00:29), n=100
+2022-03-29 04:08:24.759908 (INFO): train Loss: 0.00048811	99% CI: (0.00046034, 0.00051588), n=100
+2022-03-29 04:08:27.251254 (INFO): train ETA: 0:00:20	99% CI: (0:00:20, 0:00:21), n=100
+2022-03-29 04:08:33.494055 (INFO): train Loss: 0.00046397	99% CI: (0.00043975, 0.0004882), n=100
+2022-03-29 04:08:36.678562 (INFO): train ETA: 0:00:11	99% CI: (0:00:11, 0:00:12), n=100
+2022-03-29 04:08:42.890931 (INFO): train Loss: 0.00050665	99% CI: (0.00046902, 0.00054428), n=100
+2022-03-29 04:08:45.343585 (INFO): train ETA: 0:00:04	99% CI: (0:00:04, 0:00:04), n=100
+2022-03-29 04:08:49.399046 (INFO): Total epoch time: 0:01:07
+2022-03-29 04:08:49.399635 (INFO): 
+
+2022-03-29 04:08:49.399653 (INFO): ########################################
+2022-03-29 04:08:49.399663 (INFO):           COMPLETED EPOCH: 7                              
+2022-03-29 04:08:49.399669 (INFO): train Loss: 0.0004646	99% CI: (0.00044302, 0.00048618), n=78
+2022-03-29 04:08:49.399674 (INFO): ########################################
+2022-03-29 04:08:49.399679 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:08:58.440755 (INFO): train Loss: 0.00050858	99% CI: (0.00046856, 0.00054859), n=100
+2022-03-29 04:09:03.305906 (INFO): train ETA: 0:00:55	99% CI: (0:00:54, 0:00:55), n=100
+2022-03-29 04:09:07.413407 (INFO): train Loss: 0.00052304	99% CI: (0.00047, 0.00057608), n=100
+2022-03-29 04:09:12.252876 (INFO): train ETA: 0:00:46	99% CI: (0:00:46, 0:00:47), n=100
+2022-03-29 04:09:16.396786 (INFO): train Loss: 0.00046599	99% CI: (0.00044258, 0.00048941), n=100
+2022-03-29 04:09:20.794131 (INFO): train ETA: 0:00:38	99% CI: (0:00:37, 0:00:38), n=100
+2022-03-29 04:09:24.695767 (INFO): train Loss: 0.0004798	99% CI: (0.00044634, 0.00051325), n=100
+2022-03-29 04:09:29.889490 (INFO): train ETA: 0:00:28	99% CI: (0:00:28, 0:00:28), n=100
+2022-03-29 04:09:34.045057 (INFO): train Loss: 0.00047613	99% CI: (0.00044224, 0.00051003), n=100
+2022-03-29 04:09:39.376305 (INFO): train ETA: 0:00:19	99% CI: (0:00:19, 0:00:19), n=100
+2022-03-29 04:09:43.765997 (INFO): train Loss: 0.00049615	99% CI: (0.00044998, 0.00054231), n=100
+2022-03-29 04:09:48.695860 (INFO): train ETA: 0:00:11	99% CI: (0:00:11, 0:00:11), n=100
+2022-03-29 04:09:52.513867 (INFO): train Loss: 0.00052008	99% CI: (0.00043499, 0.00060518), n=100
+2022-03-29 04:09:56.954289 (INFO): train ETA: 0:00:02	99% CI: (0:00:02, 0:00:02), n=100
+2022-03-29 04:09:59.072509 (INFO): Total epoch time: 0:01:09
+2022-03-29 04:09:59.073072 (INFO): 
+
+2022-03-29 04:09:59.073095 (INFO): ########################################
+2022-03-29 04:09:59.073104 (INFO):           COMPLETED EPOCH: 8                              
+2022-03-29 04:09:59.073111 (INFO): train Loss: 0.00049299	99% CI: (0.0004199, 0.00056607), n=78
+2022-03-29 04:09:59.073116 (INFO): ########################################
+2022-03-29 04:09:59.073121 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:10:07.276782 (INFO): train Loss: 0.00049605	99% CI: (0.0004657, 0.00052639), n=100
+2022-03-29 04:10:13.318973 (INFO): train ETA: 0:00:48	99% CI: (0:00:48, 0:00:48), n=100
+2022-03-29 04:10:15.581562 (INFO): train Loss: 0.0005144	99% CI: (0.00044408, 0.00058472), n=100
+2022-03-29 04:10:21.996984 (INFO): train ETA: 0:00:41	99% CI: (0:00:41, 0:00:41), n=100
+2022-03-29 04:10:23.975439 (INFO): train Loss: 0.00049189	99% CI: (0.00043807, 0.00054572), n=100
+2022-03-29 04:10:30.377840 (INFO): train ETA: 0:00:33	99% CI: (0:00:33, 0:00:33), n=100
+2022-03-29 04:10:32.187818 (INFO): train Loss: 0.00048601	99% CI: (0.00044443, 0.00052759), n=100
+2022-03-29 04:10:38.864550 (INFO): train ETA: 0:00:25	99% CI: (0:00:25, 0:00:25), n=100
+2022-03-29 04:10:40.892812 (INFO): train Loss: 0.00049163	99% CI: (0.00044919, 0.00053407), n=100
+2022-03-29 04:10:47.440680 (INFO): train ETA: 0:00:16	99% CI: (0:00:16, 0:00:16), n=100
+2022-03-29 04:10:49.407233 (INFO): train Loss: 0.00045459	99% CI: (0.00042858, 0.0004806), n=100
+2022-03-29 04:10:56.050591 (INFO): train ETA: 0:00:08	99% CI: (0:00:08, 0:00:08), n=100
+2022-03-29 04:10:57.943705 (INFO): train Loss: 0.00046036	99% CI: (0.00043692, 0.00048381), n=100
+2022-03-29 04:11:04.344740 (INFO): train ETA: 0:00:00	99% CI: (0:00:00, 0:00:00), n=100
+2022-03-29 04:11:04.573708 (INFO): Total epoch time: 0:01:05
+2022-03-29 04:11:04.574273 (INFO): 
+
+2022-03-29 04:11:04.574293 (INFO): ########################################
+2022-03-29 04:11:04.574305 (INFO):           COMPLETED EPOCH: 9                              
+2022-03-29 04:11:04.574310 (INFO): train Loss: 0.00045402	99% CI: (0.00042439, 0.00048365), n=78
+2022-03-29 04:11:04.574316 (INFO): ########################################
+2022-03-29 04:11:04.574321 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:11:13.348432 (INFO): train Loss: 0.0004816	99% CI: (0.00043418, 0.00052901), n=100
+2022-03-29 04:11:21.495968 (INFO): train ETA: 0:00:49	99% CI: (0:00:48, 0:00:49), n=100
+2022-03-29 04:11:21.649955 (INFO): train Loss: 0.0004592	99% CI: (0.00043029, 0.00048811), n=100
+2022-03-29 04:11:30.484948 (INFO): train ETA: 0:00:41	99% CI: (0:00:41, 0:00:41), n=100
+2022-03-29 04:11:30.590706 (INFO): train Loss: 0.00048295	99% CI: (0.00043614, 0.00052975), n=100
+2022-03-29 04:11:38.250529 (INFO): train ETA: 0:00:32	99% CI: (0:00:32, 0:00:32), n=100
+2022-03-29 04:11:38.366123 (INFO): train Loss: 0.00046271	99% CI: (0.00043052, 0.00049491), n=100
+2022-03-29 04:11:46.851437 (INFO): train ETA: 0:00:23	99% CI: (0:00:23, 0:00:23), n=100
+2022-03-29 04:11:46.992544 (INFO): train Loss: 0.00046631	99% CI: (0.00044066, 0.00049197), n=100
+2022-03-29 04:11:55.926680 (INFO): train ETA: 0:00:15	99% CI: (0:00:15, 0:00:15), n=100
+2022-03-29 04:11:56.116627 (INFO): train Loss: 0.00044996	99% CI: (0.00042849, 0.00047142), n=100
+2022-03-29 04:12:04.485447 (INFO): train ETA: 0:00:06	99% CI: (0:00:06, 0:00:06), n=100
+2022-03-29 04:12:04.639722 (INFO): train Loss: 0.00048792	99% CI: (0.00045739, 0.00051846), n=100
+2022-03-29 04:12:11.403620 (INFO): Total epoch time: 0:01:06
+2022-03-29 04:12:11.404289 (INFO): 
+
+2022-03-29 04:12:11.404309 (INFO): ########################################
+2022-03-29 04:12:11.404321 (INFO):           COMPLETED EPOCH: 10                              
+2022-03-29 04:12:11.404327 (INFO): train Loss: 0.0004745	99% CI: (0.00043139, 0.0005176), n=78
+2022-03-29 04:12:11.404332 (INFO): ########################################
+2022-03-29 04:12:11.404381 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:12:19.862113 (INFO): train Loss: 0.00046783	99% CI: (0.00041773, 0.00051792), n=100
+2022-03-29 04:12:21.878806 (INFO): train ETA: 0:00:55	99% CI: (0:00:54, 0:00:55), n=100
+2022-03-29 04:12:28.770254 (INFO): train Loss: 0.00044982	99% CI: (0.00041886, 0.00048077), n=100
+2022-03-29 04:12:30.719266 (INFO): train ETA: 0:00:46	99% CI: (0:00:46, 0:00:47), n=100
+2022-03-29 04:12:37.504370 (INFO): train Loss: 0.00044684	99% CI: (0.00041401, 0.00047968), n=100
+2022-03-29 04:12:39.282948 (INFO): train ETA: 0:00:39	99% CI: (0:00:39, 0:00:39), n=100
+2022-03-29 04:12:46.540491 (INFO): train Loss: 0.0004456	99% CI: (0.00041987, 0.00047132), n=100
+2022-03-29 04:12:48.107357 (INFO): train ETA: 0:00:31	99% CI: (0:00:30, 0:00:31), n=100
+2022-03-29 04:12:54.542027 (INFO): train Loss: 0.00045248	99% CI: (0.00042325, 0.0004817), n=100
+2022-03-29 04:12:56.377146 (INFO): train ETA: 0:00:22	99% CI: (0:00:22, 0:00:22), n=100
+2022-03-29 04:13:03.126634 (INFO): train Loss: 0.00043128	99% CI: (0.00040426, 0.0004583), n=100
+2022-03-29 04:13:04.979619 (INFO): train ETA: 0:00:13	99% CI: (0:00:13, 0:00:13), n=100
+2022-03-29 04:13:11.907487 (INFO): train Loss: 0.00043728	99% CI: (0.00041535, 0.00045921), n=100
+2022-03-29 04:13:13.325855 (INFO): train ETA: 0:00:05	99% CI: (0:00:05, 0:00:05), n=100
+2022-03-29 04:13:18.478603 (INFO): Total epoch time: 0:01:06
+2022-03-29 04:13:18.479250 (INFO): 
+
+2022-03-29 04:13:18.479273 (INFO): ########################################
+2022-03-29 04:13:18.479284 (INFO):           COMPLETED EPOCH: 11                              
+2022-03-29 04:13:18.479295 (INFO): train Loss: 0.0004662	99% CI: (0.00040143, 0.00053097), n=78
+2022-03-29 04:13:18.479301 (INFO): ########################################
+2022-03-29 04:13:18.479306 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:13:18.674709 (INFO): 
+2022-03-29 04:13:18.674757 (INFO): --------------------------------------------------
+2022-03-29 04:13:18.674765 (INFO): dev_evaluation
+2022-03-29 04:13:18.674771 (INFO): --------------------------------------------------
+2022-03-29 04:13:18.674776 (INFO): 
+2022-03-29 04:24:00.733112 (INFO): Hits left @1: 0.07805524553571429
+2022-03-29 04:24:00.736092 (INFO): Hits right @1: 0.0022786458333333335
+2022-03-29 04:24:00.742512 (INFO): Hits @1: 0.04016694568452381
+2022-03-29 04:24:00.745241 (INFO): Hits left @2: 0.12307012648809523
+2022-03-29 04:24:00.748008 (INFO): Hits right @2: 0.003359840029761905
+2022-03-29 04:24:00.753916 (INFO): Hits @2: 0.06321498325892858
+2022-03-29 04:24:00.756587 (INFO): Hits left @3: 0.15506417410714285
+2022-03-29 04:24:00.759240 (INFO): Hits right @3: 0.004417782738095238
+2022-03-29 04:24:00.764964 (INFO): Hits @3: 0.07974097842261904
+2022-03-29 04:24:00.767746 (INFO): Hits left @4: 0.165771484375
+2022-03-29 04:24:00.770843 (INFO): Hits right @4: 0.005359468005952381
+2022-03-29 04:24:00.776297 (INFO): Hits @4: 0.08556547619047619
+2022-03-29 04:24:00.778944 (INFO): Hits left @5: 0.17973400297619047
+2022-03-29 04:24:00.781828 (INFO): Hits right @5: 0.006289527529761905
+2022-03-29 04:24:00.787184 (INFO): Hits @5: 0.09301176525297619
+2022-03-29 04:24:00.789772 (INFO): Hits left @6: 0.20610119047619047
+2022-03-29 04:24:00.792493 (INFO): Hits right @6: 0.006824311755952381
+2022-03-29 04:24:00.798045 (INFO): Hits @6: 0.10646275111607142
+2022-03-29 04:24:00.800732 (INFO): Hits left @7: 0.23818824404761904
+2022-03-29 04:24:00.803556 (INFO): Hits right @7: 0.007405598958333333
+2022-03-29 04:24:00.808944 (INFO): Hits @7: 0.12279692150297619
+2022-03-29 04:24:00.811726 (INFO): Hits left @8: 0.23995535714285715
+2022-03-29 04:24:00.814458 (INFO): Hits right @8: 0.007672991071428571
+2022-03-29 04:24:00.820183 (INFO): Hits @8: 0.12381417410714286
+2022-03-29 04:24:00.823070 (INFO): Hits left @9: 0.24210611979166666
+2022-03-29 04:24:00.825993 (INFO): Hits right @9: 0.008242652529761904
+2022-03-29 04:24:00.832336 (INFO): Hits @9: 0.12517438616071427
+2022-03-29 04:24:00.835449 (INFO): Hits left @10: 0.24710518973214285
+2022-03-29 04:24:00.838200 (INFO): Hits right @10: 0.008696056547619048
+2022-03-29 04:24:00.844474 (INFO): Hits @10: 0.12790062313988096
+2022-03-29 04:24:00.860699 (INFO): Mean rank left: 10010.836460658482
+2022-03-29 04:24:00.870942 (INFO): Mean rank right: 23486.628603980655
+2022-03-29 04:24:00.893014 (INFO): Mean rank: 16748.73253231957
+2022-03-29 04:24:00.907041 (INFO): Mean reciprocal rank left: 0.13126352454776807
+2022-03-29 04:24:00.918995 (INFO): Mean reciprocal rank right: 0.004612385567228302
+2022-03-29 04:24:00.958409 (INFO): Mean reciprocal rank: 0.06793795505749818
+2022-03-29 04:24:00.995156 (INFO): 
+2022-03-29 04:24:00.995204 (INFO): --------------------------------------------------
+2022-03-29 04:24:00.995213 (INFO): test_evaluation
+2022-03-29 04:24:00.995220 (INFO): --------------------------------------------------
+2022-03-29 04:24:00.995226 (INFO): 
+2022-03-29 04:30:59.538825 (INFO): Hits left @1: 0.095703125
+2022-03-29 04:30:59.540801 (INFO): Hits right @1: 0.004503038194444444
+2022-03-29 04:30:59.544642 (INFO): Hits @1: 0.050103081597222224
+2022-03-29 04:30:59.546337 (INFO): Hits left @2: 0.12395109953703703
+2022-03-29 04:30:59.548031 (INFO): Hits right @2: 0.006528501157407407
+2022-03-29 04:30:59.551887 (INFO): Hits @2: 0.06523980034722222
+2022-03-29 04:30:59.553820 (INFO): Hits left @3: 0.15285011574074073
+2022-03-29 04:30:59.555528 (INFO): Hits right @3: 0.008373119212962963
+2022-03-29 04:30:59.558953 (INFO): Hits @3: 0.08061161747685185
+2022-03-29 04:30:59.560644 (INFO): Hits left @4: 0.1706271701388889
+2022-03-29 04:30:59.562383 (INFO): Hits right @4: 0.009349681712962963
+2022-03-29 04:30:59.565982 (INFO): Hits @4: 0.08998842592592593
+2022-03-29 04:30:59.567658 (INFO): Hits left @5: 0.1898509837962963
+2022-03-29 04:30:59.569329 (INFO): Hits right @5: 0.011013454861111112
+2022-03-29 04:30:59.572955 (INFO): Hits @5: 0.1004322193287037
+2022-03-29 04:30:59.574704 (INFO): Hits left @6: 0.20571108217592593
+2022-03-29 04:30:59.576530 (INFO): Hits right @6: 0.012188946759259259
+2022-03-29 04:30:59.579844 (INFO): Hits @6: 0.10895001446759259
+2022-03-29 04:30:59.581592 (INFO): Hits left @7: 0.22077546296296297
+2022-03-29 04:30:59.583343 (INFO): Hits right @7: 0.01341869212962963
+2022-03-29 04:30:59.586822 (INFO): Hits @7: 0.1170970775462963
+2022-03-29 04:30:59.588758 (INFO): Hits left @8: 0.22348813657407407
+2022-03-29 04:30:59.590553 (INFO): Hits right @8: 0.014250578703703705
+2022-03-29 04:30:59.593966 (INFO): Hits @8: 0.1188693576388889
+2022-03-29 04:30:59.595760 (INFO): Hits left @9: 0.2301613136574074
+2022-03-29 04:30:59.597497 (INFO): Hits right @9: 0.01558883101851852
+2022-03-29 04:30:59.601248 (INFO): Hits @9: 0.12287507233796297
+2022-03-29 04:30:59.602938 (INFO): Hits left @10: 0.24309172453703703
+2022-03-29 04:30:59.604747 (INFO): Hits right @10: 0.016547309027777776
+2022-03-29 04:30:59.608286 (INFO): Hits @10: 0.1298195167824074
+2022-03-29 04:30:59.615255 (INFO): Mean rank left: 8089.160445601852
+2022-03-29 04:30:59.619726 (INFO): Mean rank right: 22304.340766059027
+2022-03-29 04:30:59.628178 (INFO): Mean rank: 15196.75060583044
+2022-03-29 04:30:59.632489 (INFO): Mean reciprocal rank left: 0.14083707697404677
+2022-03-29 04:30:59.637080 (INFO): Mean reciprocal rank right: 0.008834130073598791
+2022-03-29 04:30:59.645418 (INFO): Mean reciprocal rank: 0.07483560352382278
+2022-03-29 04:31:08.332364 (INFO): train Loss: 0.00043277	99% CI: (0.00041042, 0.00045511), n=100
+2022-03-29 04:31:11.944876 (INFO): train ETA: 0:00:55	99% CI: (0:00:55, 0:00:55), n=100
+2022-03-29 04:31:17.016066 (INFO): train Loss: 0.00044462	99% CI: (0.00041385, 0.0004754), n=100
+2022-03-29 04:31:20.742427 (INFO): train ETA: 0:00:46	99% CI: (0:00:46, 0:00:46), n=100
+2022-03-29 04:31:25.918500 (INFO): train Loss: 0.00044706	99% CI: (0.00042053, 0.00047359), n=100
+2022-03-29 04:31:29.571588 (INFO): train ETA: 0:00:37	99% CI: (0:00:37, 0:00:37), n=100
+2022-03-29 04:31:34.850247 (INFO): train Loss: 0.00043059	99% CI: (0.00041255, 0.00044862), n=100
+2022-03-29 04:31:38.609811 (INFO): train ETA: 0:00:29	99% CI: (0:00:29, 0:00:29), n=100
+2022-03-29 04:31:43.859228 (INFO): train Loss: 0.000436	99% CI: (0.00040949, 0.00046251), n=100
+2022-03-29 04:31:47.217814 (INFO): train ETA: 0:00:21	99% CI: (0:00:21, 0:00:21), n=100
+2022-03-29 04:31:52.531897 (INFO): train Loss: 0.00043462	99% CI: (0.00040267, 0.00046657), n=100
+2022-03-29 04:31:55.721392 (INFO): train ETA: 0:00:12	99% CI: (0:00:12, 0:00:12), n=100
+2022-03-29 04:32:00.914269 (INFO): train Loss: 0.00043077	99% CI: (0.00040704, 0.00045449), n=100
+2022-03-29 04:32:04.708371 (INFO): train ETA: 0:00:03	99% CI: (0:00:03, 0:00:03), n=100
+2022-03-29 04:32:07.682448 (INFO): Total epoch time: 0:01:08
+2022-03-29 04:32:07.683056 (INFO): 
+
+2022-03-29 04:32:07.683080 (INFO): ########################################
+2022-03-29 04:32:07.683126 (INFO):           COMPLETED EPOCH: 12                              
+2022-03-29 04:32:07.683132 (INFO): train Loss: 0.0004137	99% CI: (0.00039356, 0.00043383), n=78
+2022-03-29 04:32:07.683138 (INFO): ########################################
+2022-03-29 04:32:07.683144 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:32:16.771629 (INFO): train Loss: 0.00041978	99% CI: (0.00039876, 0.00044079), n=100
+2022-03-29 04:32:22.603213 (INFO): train ETA: 0:00:55	99% CI: (0:00:54, 0:00:55), n=100
+2022-03-29 04:32:25.674794 (INFO): train Loss: 0.00044143	99% CI: (0.00037225, 0.00051061), n=100
+2022-03-29 04:32:31.354213 (INFO): train ETA: 0:00:45	99% CI: (0:00:45, 0:00:45), n=100
+2022-03-29 04:32:34.604628 (INFO): train Loss: 0.00040742	99% CI: (0.00038762, 0.00042723), n=100
+2022-03-29 04:32:39.600218 (INFO): train ETA: 0:00:36	99% CI: (0:00:36, 0:00:37), n=100
+2022-03-29 04:32:42.762076 (INFO): train Loss: 0.00041896	99% CI: (0.0003947, 0.00044322), n=100
+2022-03-29 04:32:48.356221 (INFO): train ETA: 0:00:27	99% CI: (0:00:27, 0:00:27), n=100
+2022-03-29 04:32:51.413533 (INFO): train Loss: 0.00042536	99% CI: (0.00040053, 0.0004502), n=100
+2022-03-29 04:32:57.038403 (INFO): train ETA: 0:00:18	99% CI: (0:00:18, 0:00:18), n=100
+2022-03-29 04:32:59.832282 (INFO): train Loss: 0.00045537	99% CI: (0.00039393, 0.00051681), n=100
+2022-03-29 04:33:05.372834 (INFO): train ETA: 0:00:10	99% CI: (0:00:10, 0:00:10), n=100
+2022-03-29 04:33:08.607623 (INFO): train Loss: 0.00041012	99% CI: (0.00038823, 0.00043201), n=100
+2022-03-29 04:33:14.413157 (INFO): train ETA: 0:00:01	99% CI: (0:00:01, 0:00:01), n=100
+2022-03-29 04:33:15.534833 (INFO): Total epoch time: 0:01:07
+2022-03-29 04:33:15.535411 (INFO): 
+
+2022-03-29 04:33:15.535428 (INFO): ########################################
+2022-03-29 04:33:15.535440 (INFO):           COMPLETED EPOCH: 13                              
+2022-03-29 04:33:15.535445 (INFO): train Loss: 0.00041196	99% CI: (0.00039082, 0.0004331), n=78
+2022-03-29 04:33:15.535450 (INFO): ########################################
+2022-03-29 04:33:15.535457 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:33:24.578285 (INFO): train Loss: 0.00039907	99% CI: (0.00038095, 0.00041718), n=100
+2022-03-29 04:33:32.272906 (INFO): train ETA: 0:00:51	99% CI: (0:00:51, 0:00:52), n=100
+2022-03-29 04:33:33.328162 (INFO): train Loss: 0.00041714	99% CI: (0.00039315, 0.00044113), n=100
+2022-03-29 04:33:40.874115 (INFO): train ETA: 0:00:43	99% CI: (0:00:43, 0:00:43), n=100
+2022-03-29 04:33:41.877379 (INFO): train Loss: 0.00042228	99% CI: (0.00039383, 0.00045074), n=100
+2022-03-29 04:33:49.415432 (INFO): train ETA: 0:00:34	99% CI: (0:00:33, 0:00:34), n=100
+2022-03-29 04:33:50.785435 (INFO): train Loss: 0.0004169	99% CI: (0.00037099, 0.0004628), n=100
+2022-03-29 04:33:56.982438 (INFO): train ETA: 0:00:26	99% CI: (0:00:26, 0:00:26), n=100
+2022-03-29 04:33:57.880767 (INFO): train Loss: 0.00040347	99% CI: (0.00038488, 0.00042206), n=100
+2022-03-29 04:34:04.074002 (INFO): train ETA: 0:00:16	99% CI: (0:00:16, 0:00:16), n=100
+2022-03-29 04:34:05.186980 (INFO): train Loss: 0.00039748	99% CI: (0.00037232, 0.00042264), n=100
+2022-03-29 04:34:12.432576 (INFO): train ETA: 0:00:07	99% CI: (0:00:07, 0:00:07), n=100
+2022-03-29 04:34:13.955511 (INFO): train Loss: 0.00042291	99% CI: (0.00037559, 0.00047022), n=100
+2022-03-29 04:34:20.539635 (INFO): Total epoch time: 0:01:04
+2022-03-29 04:34:20.540376 (INFO): 
+
+2022-03-29 04:34:20.540400 (INFO): ########################################
+2022-03-29 04:34:20.540409 (INFO):           COMPLETED EPOCH: 14                              
+2022-03-29 04:34:20.540415 (INFO): train Loss: 0.00039153	99% CI: (0.00036762, 0.00041544), n=78
+2022-03-29 04:34:20.540421 (INFO): ########################################
+2022-03-29 04:34:20.540448 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:34:29.155347 (INFO): train Loss: 0.00042696	99% CI: (0.00038113, 0.00047279), n=100
+2022-03-29 04:34:29.735906 (INFO): train ETA: 0:00:57	99% CI: (0:00:56, 0:00:57), n=100
+2022-03-29 04:34:37.583525 (INFO): train Loss: 0.00039287	99% CI: (0.00037357, 0.00041216), n=100
+2022-03-29 04:34:38.257615 (INFO): train ETA: 0:00:47	99% CI: (0:00:47, 0:00:47), n=100
+2022-03-29 04:34:46.481410 (INFO): train Loss: 0.00039459	99% CI: (0.00037168, 0.00041751), n=100
+2022-03-29 04:34:47.235756 (INFO): train ETA: 0:00:40	99% CI: (0:00:40, 0:00:40), n=100
+2022-03-29 04:34:55.582521 (INFO): train Loss: 0.0004051	99% CI: (0.00038467, 0.00042554), n=100
+2022-03-29 04:34:56.341554 (INFO): train ETA: 0:00:31	99% CI: (0:00:31, 0:00:31), n=100
+2022-03-29 04:35:04.548540 (INFO): train Loss: 0.00039485	99% CI: (0.00038022, 0.00040947), n=100
+2022-03-29 04:35:05.421813 (INFO): train ETA: 0:00:23	99% CI: (0:00:23, 0:00:23), n=100
+2022-03-29 04:35:14.097921 (INFO): train Loss: 0.00039213	99% CI: (0.00037482, 0.00040943), n=100
+2022-03-29 04:35:14.782122 (INFO): train ETA: 0:00:14	99% CI: (0:00:14, 0:00:14), n=100
+2022-03-29 04:35:22.480162 (INFO): train Loss: 0.00038595	99% CI: (0.00036656, 0.00040535), n=100
+2022-03-29 04:35:23.134779 (INFO): train ETA: 0:00:06	99% CI: (0:00:06, 0:00:06), n=100
+2022-03-29 04:35:29.135025 (INFO): Total epoch time: 0:01:08
+2022-03-29 04:35:29.135643 (INFO): 
+
+2022-03-29 04:35:29.135663 (INFO): ########################################
+2022-03-29 04:35:29.135674 (INFO):           COMPLETED EPOCH: 15                              
+2022-03-29 04:35:29.135681 (INFO): train Loss: 0.00038713	99% CI: (0.00036965, 0.00040461), n=78
+2022-03-29 04:35:29.135688 (INFO): ########################################
+2022-03-29 04:35:29.135693 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:35:38.426067 (INFO): train Loss: 0.00039457	99% CI: (0.00037516, 0.00041398), n=100
+2022-03-29 04:35:40.853837 (INFO): train ETA: 0:00:59	99% CI: (0:00:59, 0:00:59), n=100
+2022-03-29 04:35:46.723750 (INFO): train Loss: 0.0003791	99% CI: (0.00036053, 0.00039766), n=100
+2022-03-29 04:35:49.239240 (INFO): train ETA: 0:00:48	99% CI: (0:00:48, 0:00:48), n=100
+2022-03-29 04:35:55.465885 (INFO): train Loss: 0.00040348	99% CI: (0.00036513, 0.00044182), n=100
+2022-03-29 04:35:58.233502 (INFO): train ETA: 0:00:39	99% CI: (0:00:38, 0:00:39), n=100
+2022-03-29 04:36:03.674314 (INFO): train Loss: 0.00039622	99% CI: (0.00036917, 0.00042327), n=100
+2022-03-29 04:36:06.221143 (INFO): train ETA: 0:00:30	99% CI: (0:00:30, 0:00:30), n=100
+2022-03-29 04:36:12.318394 (INFO): train Loss: 0.00039	99% CI: (0.00037405, 0.00040595), n=100
+2022-03-29 04:36:14.920342 (INFO): train ETA: 0:00:21	99% CI: (0:00:21, 0:00:21), n=100
+2022-03-29 04:36:20.660342 (INFO): train Loss: 0.0003726	99% CI: (0.00035511, 0.00039009), n=100
+2022-03-29 04:36:23.028638 (INFO): train ETA: 0:00:13	99% CI: (0:00:13, 0:00:13), n=100
+2022-03-29 04:36:29.082793 (INFO): train Loss: 0.00038922	99% CI: (0.00036845, 0.00040998), n=100
+2022-03-29 04:36:31.401873 (INFO): train ETA: 0:00:04	99% CI: (0:00:04, 0:00:04), n=100
+2022-03-29 04:36:36.004570 (INFO): Total epoch time: 0:01:06
+2022-03-29 04:36:36.005201 (INFO): 
+
+2022-03-29 04:36:36.005220 (INFO): ########################################
+2022-03-29 04:36:36.005232 (INFO):           COMPLETED EPOCH: 16                              
+2022-03-29 04:36:36.005286 (INFO): train Loss: 0.00036963	99% CI: (0.00035426, 0.000385), n=78
+2022-03-29 04:36:36.005293 (INFO): ########################################
+2022-03-29 04:36:36.005298 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:36:36.174614 (INFO): 
+2022-03-29 04:36:36.174669 (INFO): --------------------------------------------------
+2022-03-29 04:36:36.174676 (INFO): dev_evaluation
+2022-03-29 04:36:36.174682 (INFO): --------------------------------------------------
+2022-03-29 04:36:36.174688 (INFO): 
+2022-03-29 04:47:28.401920 (INFO): Hits left @1: 0.07974097842261904
+2022-03-29 04:47:28.404834 (INFO): Hits right @1: 0.007359095982142857
+2022-03-29 04:47:28.419461 (INFO): Hits @1: 0.04355003720238095
+2022-03-29 04:47:28.422173 (INFO): Hits left @2: 0.10195777529761904
+2022-03-29 04:47:28.425196 (INFO): Hits right @2: 0.009602864583333334
+2022-03-29 04:47:28.430967 (INFO): Hits @2: 0.05578031994047619
+2022-03-29 04:47:28.433892 (INFO): Hits left @3: 0.13259161086309523
+2022-03-29 04:47:28.436784 (INFO): Hits right @3: 0.011021205357142858
+2022-03-29 04:47:28.442622 (INFO): Hits @3: 0.07180640811011904
+2022-03-29 04:47:28.445546 (INFO): Hits left @4: 0.17579287574404762
+2022-03-29 04:47:28.448404 (INFO): Hits right @4: 0.012497674851190476
+2022-03-29 04:47:28.454075 (INFO): Hits @4: 0.09414527529761904
+2022-03-29 04:47:28.456848 (INFO): Hits left @5: 0.18930199032738096
+2022-03-29 04:47:28.459507 (INFO): Hits right @5: 0.013578869047619048
+2022-03-29 04:47:28.465485 (INFO): Hits @5: 0.1014404296875
+2022-03-29 04:47:28.468649 (INFO): Hits left @6: 0.19231305803571427
+2022-03-29 04:47:28.471338 (INFO): Hits right @6: 0.014078776041666666
+2022-03-29 04:47:28.477250 (INFO): Hits @6: 0.10319591703869048
+2022-03-29 04:47:28.480122 (INFO): Hits left @7: 0.19704473586309523
+2022-03-29 04:47:28.482902 (INFO): Hits right @7: 0.014625186011904762
+2022-03-29 04:47:28.488573 (INFO): Hits @7: 0.1058349609375
+2022-03-29 04:47:28.491487 (INFO): Hits left @8: 0.20004417782738096
+2022-03-29 04:47:28.494167 (INFO): Hits right @8: 0.01525297619047619
+2022-03-29 04:47:28.499978 (INFO): Hits @8: 0.10764857700892858
+2022-03-29 04:47:28.502969 (INFO): Hits left @9: 0.20431082589285715
+2022-03-29 04:47:28.505894 (INFO): Hits right @9: 0.01561337425595238
+2022-03-29 04:47:28.511836 (INFO): Hits @9: 0.10996210007440477
+2022-03-29 04:47:28.514762 (INFO): Hits left @10: 0.23246837797619047
+2022-03-29 04:47:28.517566 (INFO): Hits right @10: 0.015962146577380952
+2022-03-29 04:47:28.523426 (INFO): Hits @10: 0.12421526227678571
+2022-03-29 04:47:28.540119 (INFO): Mean rank left: 10461.095993768602
+2022-03-29 04:47:28.554843 (INFO): Mean rank right: 20647.44504510789
+2022-03-29 04:47:28.578547 (INFO): Mean rank: 15554.270519438243
+2022-03-29 04:47:28.592221 (INFO): Mean reciprocal rank left: 0.12221231899617901
+2022-03-29 04:47:28.604003 (INFO): Mean reciprocal rank right: 0.010510545571132937
+2022-03-29 04:47:28.635256 (INFO): Mean reciprocal rank: 0.06636143228365599
+2022-03-29 04:47:28.674324 (INFO): 
+2022-03-29 04:47:28.674382 (INFO): --------------------------------------------------
+2022-03-29 04:47:28.674394 (INFO): test_evaluation
+2022-03-29 04:47:28.674401 (INFO): --------------------------------------------------
+2022-03-29 04:47:28.674407 (INFO): 
+2022-03-29 04:54:33.874837 (INFO): Hits left @1: 0.1087962962962963
+2022-03-29 04:54:33.876615 (INFO): Hits right @1: 0.01732494212962963
+2022-03-29 04:54:33.880177 (INFO): Hits @1: 0.06306061921296297
+2022-03-29 04:54:33.881960 (INFO): Hits left @2: 0.14143880208333334
+2022-03-29 04:54:33.883733 (INFO): Hits right @2: 0.02052589699074074
+2022-03-29 04:54:33.887259 (INFO): Hits @2: 0.08098234953703703
+2022-03-29 04:54:33.889032 (INFO): Hits left @3: 0.17082609953703703
+2022-03-29 04:54:33.890913 (INFO): Hits right @3: 0.024287471064814815
+2022-03-29 04:54:33.894519 (INFO): Hits @3: 0.09755678530092593
+2022-03-29 04:54:33.896276 (INFO): Hits left @4: 0.19643373842592593
+2022-03-29 04:54:33.897930 (INFO): Hits right @4: 0.02709056712962963
+2022-03-29 04:54:33.901279 (INFO): Hits @4: 0.11176215277777778
+2022-03-29 04:54:33.903032 (INFO): Hits left @5: 0.21500651041666666
+2022-03-29 04:54:33.904892 (INFO): Hits right @5: 0.028971354166666668
+2022-03-29 04:54:33.908403 (INFO): Hits @5: 0.12198893229166667
+2022-03-29 04:54:33.910240 (INFO): Hits left @6: 0.22343388310185186
+2022-03-29 04:54:33.912025 (INFO): Hits right @6: 0.03020109953703704
+2022-03-29 04:54:33.915502 (INFO): Hits @6: 0.12681749131944445
+2022-03-29 04:54:33.917259 (INFO): Hits left @7: 0.23922164351851852
+2022-03-29 04:54:33.919023 (INFO): Hits right @7: 0.03152126736111111
+2022-03-29 04:54:33.922564 (INFO): Hits @7: 0.13537145543981483
+2022-03-29 04:54:33.924351 (INFO): Hits left @8: 0.24390552662037038
+2022-03-29 04:54:33.926265 (INFO): Hits right @8: 0.03318504050925926
+2022-03-29 04:54:33.929866 (INFO): Hits @8: 0.13854528356481483
+2022-03-29 04:54:33.931555 (INFO): Hits left @9: 0.24873408564814814
+2022-03-29 04:54:33.933324 (INFO): Hits right @9: 0.03403501157407408
+2022-03-29 04:54:33.936787 (INFO): Hits @9: 0.1413845486111111
+2022-03-29 04:54:33.938680 (INFO): Hits left @10: 0.2581199363425926
+2022-03-29 04:54:33.940571 (INFO): Hits right @10: 0.03477647569444445
+2022-03-29 04:54:33.944103 (INFO): Hits @10: 0.14644820601851852
+2022-03-29 04:54:33.954384 (INFO): Mean rank left: 8973.083441840277
+2022-03-29 04:54:33.959241 (INFO): Mean rank right: 19645.533528645832
+2022-03-29 04:54:33.968775 (INFO): Mean rank: 14309.308485243055
+2022-03-29 04:54:33.973444 (INFO): Mean reciprocal rank left: 0.15425467548105956
+2022-03-29 04:54:33.978237 (INFO): Mean reciprocal rank right: 0.02324290385905335
+2022-03-29 04:54:33.986923 (INFO): Mean reciprocal rank: 0.08874878967005646
+2022-03-29 04:54:42.312413 (INFO): train Loss: 0.00037674	99% CI: (0.00036305, 0.00039043), n=100
+2022-03-29 04:54:46.888868 (INFO): train ETA: 0:00:52	99% CI: (0:00:52, 0:00:52), n=100
+2022-03-29 04:54:51.305736 (INFO): train Loss: 0.00037095	99% CI: (0.0003583, 0.0003836), n=100
+2022-03-29 04:54:55.968478 (INFO): train ETA: 0:00:45	99% CI: (0:00:45, 0:00:45), n=100
+2022-03-29 04:55:00.511192 (INFO): train Loss: 0.00040577	99% CI: (0.00036492, 0.00044662), n=100
+2022-03-29 04:55:05.280752 (INFO): train ETA: 0:00:37	99% CI: (0:00:37, 0:00:37), n=100
+2022-03-29 04:55:09.663802 (INFO): train Loss: 0.0003724	99% CI: (0.00035859, 0.00038622), n=100
+2022-03-29 04:55:14.456708 (INFO): train ETA: 0:00:28	99% CI: (0:00:28, 0:00:29), n=100
+2022-03-29 04:55:18.999228 (INFO): train Loss: 0.00036965	99% CI: (0.00035693, 0.00038237), n=100
+2022-03-29 04:55:23.630054 (INFO): train ETA: 0:00:20	99% CI: (0:00:20, 0:00:20), n=100
+2022-03-29 04:55:27.783020 (INFO): train Loss: 0.00036907	99% CI: (0.00034966, 0.00038847), n=100
+2022-03-29 04:55:32.328657 (INFO): train ETA: 0:00:11	99% CI: (0:00:11, 0:00:11), n=100
+2022-03-29 04:55:36.435312 (INFO): train Loss: 0.00037746	99% CI: (0.00034554, 0.00040938), n=100
+2022-03-29 04:55:40.941299 (INFO): train ETA: 0:00:02	99% CI: (0:00:02, 0:00:02), n=100
+2022-03-29 04:55:43.244015 (INFO): Total epoch time: 0:01:09
+2022-03-29 04:55:43.244629 (INFO): 
+
+2022-03-29 04:55:43.244650 (INFO): ########################################
+2022-03-29 04:55:43.244661 (INFO):           COMPLETED EPOCH: 17                              
+2022-03-29 04:55:43.244667 (INFO): train Loss: 0.00036926	99% CI: (0.00035121, 0.00038731), n=78
+2022-03-29 04:55:43.244672 (INFO): ########################################
+2022-03-29 04:55:43.244677 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:55:52.260401 (INFO): train Loss: 0.00035846	99% CI: (0.00034506, 0.00037186), n=100
+2022-03-29 04:55:58.730709 (INFO): train ETA: 0:00:53	99% CI: (0:00:52, 0:00:53), n=100
+2022-03-29 04:56:01.138032 (INFO): train Loss: 0.00037935	99% CI: (0.00035607, 0.00040262), n=100
+2022-03-29 04:56:07.411397 (INFO): train ETA: 0:00:44	99% CI: (0:00:44, 0:00:44), n=100
+2022-03-29 04:56:09.644880 (INFO): train Loss: 0.00036763	99% CI: (0.00035083, 0.00038444), n=100
+2022-03-29 04:56:16.192643 (INFO): train ETA: 0:00:35	99% CI: (0:00:35, 0:00:35), n=100
+2022-03-29 04:56:18.779109 (INFO): train Loss: 0.00037329	99% CI: (0.00035872, 0.00038787), n=100
+2022-03-29 04:56:25.799474 (INFO): train ETA: 0:00:27	99% CI: (0:00:26, 0:00:27), n=100
+2022-03-29 04:56:27.941770 (INFO): train Loss: 0.00038033	99% CI: (0.00035173, 0.00040893), n=100
+2022-03-29 04:56:34.112919 (INFO): train ETA: 0:00:18	99% CI: (0:00:18, 0:00:18), n=100
+2022-03-29 04:56:36.499054 (INFO): train Loss: 0.00036477	99% CI: (0.00034094, 0.0003886), n=100
+2022-03-29 04:56:43.754631 (INFO): train ETA: 0:00:08	99% CI: (0:00:08, 0:00:08), n=100
+2022-03-29 04:56:45.979501 (INFO): train Loss: 0.00035289	99% CI: (0.00034199, 0.00036378), n=100
+2022-03-29 04:56:52.640641 (INFO): train ETA: 0:00:00	99% CI: (0:00:00, 0:00:00), n=100
+2022-03-29 04:56:53.144617 (INFO): Total epoch time: 0:01:09
+2022-03-29 04:56:53.145232 (INFO): 
+
+2022-03-29 04:56:53.145254 (INFO): ########################################
+2022-03-29 04:56:53.145265 (INFO):           COMPLETED EPOCH: 18                              
+2022-03-29 04:56:53.145273 (INFO): train Loss: 0.00036422	99% CI: (0.00034425, 0.00038419), n=78
+2022-03-29 04:56:53.145317 (INFO): ########################################
+2022-03-29 04:56:53.145322 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:57:02.294594 (INFO): train Loss: 0.00035615	99% CI: (0.00034371, 0.00036859), n=100
+2022-03-29 04:57:10.738092 (INFO): train ETA: 0:00:52	99% CI: (0:00:52, 0:00:52), n=100
+2022-03-29 04:57:11.040813 (INFO): train Loss: 0.00035747	99% CI: (0.00034341, 0.00037152), n=100
+2022-03-29 04:57:19.235964 (INFO): train ETA: 0:00:42	99% CI: (0:00:42, 0:00:42), n=100
+2022-03-29 04:57:19.599508 (INFO): train Loss: 0.00036027	99% CI: (0.00034513, 0.00037542), n=100
+2022-03-29 04:57:28.056816 (INFO): train ETA: 0:00:33	99% CI: (0:00:33, 0:00:33), n=100
+2022-03-29 04:57:28.345447 (INFO): train Loss: 0.00035377	99% CI: (0.00034008, 0.00036745), n=100
+2022-03-29 04:57:37.146541 (INFO): train ETA: 0:00:24	99% CI: (0:00:24, 0:00:24), n=100
+2022-03-29 04:57:37.392695 (INFO): train Loss: 0.00035358	99% CI: (0.00034273, 0.00036443), n=100
+2022-03-29 04:57:45.938895 (INFO): train ETA: 0:00:16	99% CI: (0:00:16, 0:00:16), n=100
+2022-03-29 04:57:46.268468 (INFO): train Loss: 0.00034378	99% CI: (0.0003332, 0.00035437), n=100
+2022-03-29 04:57:54.478628 (INFO): train ETA: 0:00:07	99% CI: (0:00:07, 0:00:07), n=100
+2022-03-29 04:57:54.996637 (INFO): train Loss: 0.0003496	99% CI: (0.00033504, 0.00036416), n=100
+2022-03-29 04:58:02.127266 (INFO): Total epoch time: 0:01:08
+2022-03-29 04:58:02.127854 (INFO): 
+
+2022-03-29 04:58:02.127872 (INFO): ########################################
+2022-03-29 04:58:02.127882 (INFO):           COMPLETED EPOCH: 19                              
+2022-03-29 04:58:02.127887 (INFO): train Loss: 0.00034766	99% CI: (0.00033157, 0.00036375), n=78
+2022-03-29 04:58:02.127893 (INFO): ########################################
+2022-03-29 04:58:02.127898 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:58:11.032262 (INFO): train Loss: 0.00035542	99% CI: (0.00034195, 0.00036889), n=100
+2022-03-29 04:58:12.662385 (INFO): train ETA: 0:00:53	99% CI: (0:00:52, 0:00:54), n=100
+2022-03-29 04:58:19.936705 (INFO): train Loss: 0.0003479	99% CI: (0.0003371, 0.0003587), n=100
+2022-03-29 04:58:21.386931 (INFO): train ETA: 0:00:49	99% CI: (0:00:49, 0:00:49), n=100
+2022-03-29 04:58:28.568915 (INFO): train Loss: 0.00034954	99% CI: (0.00033782, 0.00036125), n=100
+2022-03-29 04:58:30.308665 (INFO): train ETA: 0:00:40	99% CI: (0:00:40, 0:00:40), n=100
+2022-03-29 04:58:37.828426 (INFO): train Loss: 0.00035795	99% CI: (0.00034349, 0.00037241), n=100
+2022-03-29 04:58:39.168369 (INFO): train ETA: 0:00:31	99% CI: (0:00:31, 0:00:31), n=100
+2022-03-29 04:58:46.423285 (INFO): train Loss: 0.00035211	99% CI: (0.00033587, 0.00036836), n=100
+2022-03-29 04:58:48.206608 (INFO): train ETA: 0:00:22	99% CI: (0:00:22, 0:00:23), n=100
+2022-03-29 04:58:55.302041 (INFO): train Loss: 0.0003531	99% CI: (0.00032046, 0.00038573), n=100
+2022-03-29 04:58:57.055307 (INFO): train ETA: 0:00:14	99% CI: (0:00:14, 0:00:14), n=100
+2022-03-29 04:59:04.448215 (INFO): train Loss: 0.00035801	99% CI: (0.00032765, 0.00038836), n=100
+2022-03-29 04:59:06.038447 (INFO): train ETA: 0:00:05	99% CI: (0:00:05, 0:00:05), n=100
+2022-03-29 04:59:11.078532 (INFO): Total epoch time: 0:01:08
+2022-03-29 04:59:11.079177 (INFO): 
+
+2022-03-29 04:59:11.079200 (INFO): ########################################
+2022-03-29 04:59:11.079212 (INFO):           COMPLETED EPOCH: 20                              
+2022-03-29 04:59:11.079221 (INFO): train Loss: 0.00034283	99% CI: (0.00033096, 0.00035471), n=78
+2022-03-29 04:59:11.079226 (INFO): ########################################
+2022-03-29 04:59:11.079231 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 04:59:20.339213 (INFO): train Loss: 0.00033882	99% CI: (0.00032834, 0.00034929), n=100
+2022-03-29 04:59:23.909223 (INFO): train ETA: 0:00:57	99% CI: (0:00:57, 0:00:57), n=100
+2022-03-29 04:59:30.061264 (INFO): train Loss: 0.0003484	99% CI: (0.00033525, 0.00036156), n=100
+2022-03-29 04:59:33.547557 (INFO): train ETA: 0:00:50	99% CI: (0:00:50, 0:00:50), n=100
+2022-03-29 04:59:39.194922 (INFO): train Loss: 0.0003563	99% CI: (0.0003351, 0.00037749), n=100
+2022-03-29 04:59:42.307956 (INFO): train ETA: 0:00:40	99% CI: (0:00:40, 0:00:41), n=100
+2022-03-29 04:59:47.338788 (INFO): train Loss: 0.00037763	99% CI: (0.00032642, 0.00042885), n=100
+2022-03-29 04:59:50.494686 (INFO): train ETA: 0:00:31	99% CI: (0:00:31, 0:00:31), n=100
+2022-03-29 04:59:55.299764 (INFO): train Loss: 0.00034895	99% CI: (0.00033288, 0.00036501), n=100
+2022-03-29 04:59:58.816503 (INFO): train ETA: 0:00:21	99% CI: (0:00:21, 0:00:21), n=100
+2022-03-29 05:00:04.307564 (INFO): train Loss: 0.00034079	99% CI: (0.00033011, 0.00035147), n=100
+2022-03-29 05:00:07.763604 (INFO): train ETA: 0:00:12	99% CI: (0:00:12, 0:00:12), n=100
+2022-03-29 05:00:13.104299 (INFO): train Loss: 0.00033712	99% CI: (0.00032942, 0.00034483), n=100
+2022-03-29 05:00:16.860919 (INFO): train ETA: 0:00:03	99% CI: (0:00:03, 0:00:03), n=100
+2022-03-29 05:00:20.463761 (INFO): Total epoch time: 0:01:09
+2022-03-29 05:00:20.464511 (INFO): 
+
+2022-03-29 05:00:20.464530 (INFO): ########################################
+2022-03-29 05:00:20.464541 (INFO):           COMPLETED EPOCH: 21                              
+2022-03-29 05:00:20.464547 (INFO): train Loss: 0.00033196	99% CI: (0.00032284, 0.00034109), n=78
+2022-03-29 05:00:20.464552 (INFO): ########################################
+2022-03-29 05:00:20.464557 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:00:20.656968 (INFO): 
+2022-03-29 05:00:20.657030 (INFO): --------------------------------------------------
+2022-03-29 05:00:20.657040 (INFO): dev_evaluation
+2022-03-29 05:00:20.657046 (INFO): --------------------------------------------------
+2022-03-29 05:00:20.657061 (INFO): 
+2022-03-29 05:11:18.485529 (INFO): Hits left @1: 0.09908621651785714
+2022-03-29 05:11:18.488589 (INFO): Hits right @1: 0.012834821428571428
+2022-03-29 05:11:18.494805 (INFO): Hits @1: 0.05596051897321429
+2022-03-29 05:11:18.497723 (INFO): Hits left @2: 0.14975120907738096
+2022-03-29 05:11:18.500797 (INFO): Hits right @2: 0.01536923363095238
+2022-03-29 05:11:18.506449 (INFO): Hits @2: 0.08256022135416667
+2022-03-29 05:11:18.509180 (INFO): Hits left @3: 0.20225306919642858
+2022-03-29 05:11:18.511854 (INFO): Hits right @3: 0.017671130952380952
+2022-03-29 05:11:18.517859 (INFO): Hits @3: 0.10996210007440477
+2022-03-29 05:11:18.520806 (INFO): Hits left @4: 0.21194893973214285
+2022-03-29 05:11:18.523486 (INFO): Hits right @4: 0.01878720238095238
+2022-03-29 05:11:18.529163 (INFO): Hits @4: 0.11536807105654762
+2022-03-29 05:11:18.531940 (INFO): Hits left @5: 0.21515764508928573
+2022-03-29 05:11:18.534645 (INFO): Hits right @5: 0.019461495535714284
+2022-03-29 05:11:18.540648 (INFO): Hits @5: 0.1173095703125
+2022-03-29 05:11:18.543618 (INFO): Hits left @6: 0.21766880580357142
+2022-03-29 05:11:18.546362 (INFO): Hits right @6: 0.019961402529761904
+2022-03-29 05:11:18.552242 (INFO): Hits @6: 0.11881510416666667
+2022-03-29 05:11:18.555074 (INFO): Hits left @7: 0.22300502232142858
+2022-03-29 05:11:18.557858 (INFO): Hits right @7: 0.02051943824404762
+2022-03-29 05:11:18.563557 (INFO): Hits @7: 0.1217622302827381
+2022-03-29 05:11:18.566352 (INFO): Hits left @8: 0.2252139136904762
+2022-03-29 05:11:18.569274 (INFO): Hits right @8: 0.020926339285714284
+2022-03-29 05:11:18.575054 (INFO): Hits @8: 0.12307012648809523
+2022-03-29 05:11:18.577996 (INFO): Hits left @9: 0.22785295758928573
+2022-03-29 05:11:18.580686 (INFO): Hits right @9: 0.021623883928571428
+2022-03-29 05:11:18.586476 (INFO): Hits @9: 0.12473842075892858
+2022-03-29 05:11:18.589483 (INFO): Hits left @10: 0.24733770461309523
+2022-03-29 05:11:18.592154 (INFO): Hits right @10: 0.022123790922619048
+2022-03-29 05:11:18.598130 (INFO): Hits @10: 0.13473074776785715
+2022-03-29 05:11:18.614370 (INFO): Mean rank left: 10845.249000186011
+2022-03-29 05:11:18.623799 (INFO): Mean rank right: 20419.689150855655
+2022-03-29 05:11:18.640398 (INFO): Mean rank: 15632.469075520834
+2022-03-29 05:11:18.648833 (INFO): Mean reciprocal rank left: 0.15311905044681956
+2022-03-29 05:11:18.657058 (INFO): Mean reciprocal rank right: 0.016121013391849896
+2022-03-29 05:11:18.673129 (INFO): Mean reciprocal rank: 0.08462003191933473
+2022-03-29 05:11:18.710890 (INFO): 
+2022-03-29 05:11:18.710938 (INFO): --------------------------------------------------
+2022-03-29 05:11:18.710945 (INFO): test_evaluation
+2022-03-29 05:11:18.710951 (INFO): --------------------------------------------------
+2022-03-29 05:11:18.710956 (INFO): 
+2022-03-29 05:18:16.975478 (INFO): Hits left @1: 0.12340856481481481
+2022-03-29 05:18:16.977427 (INFO): Hits right @1: 0.028266059027777776
+2022-03-29 05:18:16.980985 (INFO): Hits @1: 0.0758373119212963
+2022-03-29 05:18:16.982710 (INFO): Hits left @2: 0.1711154513888889
+2022-03-29 05:18:16.984445 (INFO): Hits right @2: 0.03403501157407408
+2022-03-29 05:18:16.987987 (INFO): Hits @2: 0.10257523148148148
+2022-03-29 05:18:16.989941 (INFO): Hits left @3: 0.2107204861111111
+2022-03-29 05:18:16.991731 (INFO): Hits right @3: 0.03730830439814815
+2022-03-29 05:18:16.997362 (INFO): Hits @3: 0.12401439525462964
+2022-03-29 05:18:16.999231 (INFO): Hits left @4: 0.21970847800925927
+2022-03-29 05:18:17.001223 (INFO): Hits right @4: 0.039243344907407406
+2022-03-29 05:18:17.004813 (INFO): Hits @4: 0.12947591145833334
+2022-03-29 05:18:17.006634 (INFO): Hits left @5: 0.22462745949074073
+2022-03-29 05:18:17.008351 (INFO): Hits right @5: 0.04065393518518518
+2022-03-29 05:18:17.012289 (INFO): Hits @5: 0.13264069733796297
+2022-03-29 05:18:17.014012 (INFO): Hits left @6: 0.22866030092592593
+2022-03-29 05:18:17.015736 (INFO): Hits right @6: 0.04130497685185185
+2022-03-29 05:18:17.019637 (INFO): Hits @6: 0.1349826388888889
+2022-03-29 05:18:17.021539 (INFO): Hits left @7: 0.23549623842592593
+2022-03-29 05:18:17.023249 (INFO): Hits right @7: 0.04251663773148148
+2022-03-29 05:18:17.026766 (INFO): Hits @7: 0.1390064380787037
+2022-03-29 05:18:17.028595 (INFO): Hits left @8: 0.2399269386574074
+2022-03-29 05:18:17.030431 (INFO): Hits right @8: 0.04325810185185185
+2022-03-29 05:18:17.034068 (INFO): Hits @8: 0.14159252025462962
+2022-03-29 05:18:17.035894 (INFO): Hits left @9: 0.25034360532407407
+2022-03-29 05:18:17.037679 (INFO): Hits right @9: 0.044759114583333336
+2022-03-29 05:18:17.041388 (INFO): Hits @9: 0.1475513599537037
+2022-03-29 05:18:17.043203 (INFO): Hits left @10: 0.2609592013888889
+2022-03-29 05:18:17.045007 (INFO): Hits right @10: 0.04577184606481482
+2022-03-29 05:18:17.048516 (INFO): Hits @10: 0.15336552372685186
+2022-03-29 05:18:17.057077 (INFO): Mean rank left: 10936.967466001157
+2022-03-29 05:18:17.061519 (INFO): Mean rank right: 19560.32177734375
+2022-03-29 05:18:17.070590 (INFO): Mean rank: 15248.644621672454
+2022-03-29 05:18:17.075136 (INFO): Mean reciprocal rank left: 0.17229654125438737
+2022-03-29 05:18:17.079645 (INFO): Mean reciprocal rank right: 0.03460606541513045
+2022-03-29 05:18:17.088668 (INFO): Mean reciprocal rank: 0.1034513033347589
+2022-03-29 05:18:26.276004 (INFO): train Loss: 0.00033639	99% CI: (0.0003246, 0.00034818), n=100
+2022-03-29 05:18:31.648319 (INFO): train ETA: 0:00:56	99% CI: (0:00:56, 0:00:56), n=100
+2022-03-29 05:18:35.200991 (INFO): train Loss: 0.0003507	99% CI: (0.00033579, 0.00036561), n=100
+2022-03-29 05:18:40.967283 (INFO): train ETA: 0:00:46	99% CI: (0:00:46, 0:00:46), n=100
+2022-03-29 05:18:44.176142 (INFO): train Loss: 0.0003449	99% CI: (0.00032955, 0.00036025), n=100
+2022-03-29 05:18:50.008348 (INFO): train ETA: 0:00:37	99% CI: (0:00:37, 0:00:37), n=100
+2022-03-29 05:18:53.422778 (INFO): train Loss: 0.00036063	99% CI: (0.00032369, 0.00039757), n=100
+2022-03-29 05:18:59.088609 (INFO): train ETA: 0:00:28	99% CI: (0:00:28, 0:00:28), n=100
+2022-03-29 05:19:02.258182 (INFO): train Loss: 0.00034986	99% CI: (0.00033709, 0.00036263), n=100
+2022-03-29 05:19:07.182833 (INFO): train ETA: 0:00:20	99% CI: (0:00:19, 0:00:20), n=100
+2022-03-29 05:19:10.461115 (INFO): train Loss: 0.00033264	99% CI: (0.00032463, 0.00034066), n=100
+2022-03-29 05:19:15.512514 (INFO): train ETA: 0:00:10	99% CI: (0:00:10, 0:00:10), n=100
+2022-03-29 05:19:19.375029 (INFO): train Loss: 0.00033189	99% CI: (0.00031861, 0.00034517), n=100
+2022-03-29 05:19:24.592539 (INFO): train ETA: 0:00:01	99% CI: (0:00:01, 0:00:01), n=100
+2022-03-29 05:19:25.845365 (INFO): Total epoch time: 0:01:08
+2022-03-29 05:19:25.845942 (INFO): 
+
+2022-03-29 05:19:25.845960 (INFO): ########################################
+2022-03-29 05:19:25.845969 (INFO):           COMPLETED EPOCH: 22                              
+2022-03-29 05:19:25.845975 (INFO): train Loss: 0.00033627	99% CI: (0.0003197, 0.00035283), n=78
+2022-03-29 05:19:25.845980 (INFO): ########################################
+2022-03-29 05:19:25.845986 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:19:34.843605 (INFO): train Loss: 0.00032839	99% CI: (0.0003193, 0.00033748), n=100
+2022-03-29 05:19:42.850310 (INFO): train ETA: 0:00:53	99% CI: (0:00:53, 0:00:54), n=100
+2022-03-29 05:19:44.302265 (INFO): train Loss: 0.00034061	99% CI: (0.00032832, 0.00035289), n=100
+2022-03-29 05:19:52.016378 (INFO): train ETA: 0:00:45	99% CI: (0:00:45, 0:00:45), n=100
+2022-03-29 05:19:53.482790 (INFO): train Loss: 0.00033507	99% CI: (0.00032144, 0.0003487), n=100
+2022-03-29 05:20:00.047551 (INFO): train ETA: 0:00:36	99% CI: (0:00:36, 0:00:36), n=100
+2022-03-29 05:20:01.383633 (INFO): train Loss: 0.00032972	99% CI: (0.00032117, 0.00033827), n=100
+2022-03-29 05:20:09.101409 (INFO): train ETA: 0:00:26	99% CI: (0:00:25, 0:00:26), n=100
+2022-03-29 05:20:10.524509 (INFO): train Loss: 0.0003293	99% CI: (0.00031938, 0.00033922), n=100
+2022-03-29 05:20:18.232082 (INFO): train ETA: 0:00:17	99% CI: (0:00:17, 0:00:17), n=100
+2022-03-29 05:20:19.938063 (INFO): train Loss: 0.00033934	99% CI: (0.00031378, 0.0003649), n=100
+2022-03-29 05:20:27.094661 (INFO): train ETA: 0:00:08	99% CI: (0:00:08, 0:00:08), n=100
+2022-03-29 05:20:28.239614 (INFO): train Loss: 0.00033126	99% CI: (0.00032164, 0.00034089), n=100
+2022-03-29 05:20:35.519283 (INFO): Total epoch time: 0:01:09
+2022-03-29 05:20:35.520063 (INFO): 
+
+2022-03-29 05:20:35.520082 (INFO): ########################################
+2022-03-29 05:20:35.520101 (INFO):           COMPLETED EPOCH: 23                              
+2022-03-29 05:20:35.520106 (INFO): train Loss: 0.00032959	99% CI: (0.00031853, 0.00034065), n=78
+2022-03-29 05:20:35.520112 (INFO): ########################################
+2022-03-29 05:20:35.520117 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:20:44.449662 (INFO): train Loss: 0.00033691	99% CI: (0.00032574, 0.00034808), n=100
+2022-03-29 05:20:45.093493 (INFO): train ETA: 0:00:57	99% CI: (0:00:56, 0:00:57), n=100
+2022-03-29 05:20:52.893299 (INFO): train Loss: 0.00033307	99% CI: (0.00032118, 0.00034495), n=100
+2022-03-29 05:20:53.544869 (INFO): train ETA: 0:00:49	99% CI: (0:00:49, 0:00:49), n=100
+2022-03-29 05:21:02.305846 (INFO): train Loss: 0.00032974	99% CI: (0.00032002, 0.00033947), n=100
+2022-03-29 05:21:02.890812 (INFO): train ETA: 0:00:40	99% CI: (0:00:40, 0:00:40), n=100
+2022-03-29 05:21:11.501925 (INFO): train Loss: 0.00032858	99% CI: (0.00031746, 0.0003397), n=100
+2022-03-29 05:21:11.962582 (INFO): train ETA: 0:00:33	99% CI: (0:00:33, 0:00:33), n=100
+2022-03-29 05:21:20.345003 (INFO): train Loss: 0.00032585	99% CI: (0.00031578, 0.00033592), n=100
+2022-03-29 05:21:20.950036 (INFO): train ETA: 0:00:24	99% CI: (0:00:24, 0:00:24), n=100
+2022-03-29 05:21:29.210450 (INFO): train Loss: 0.00032226	99% CI: (0.00031284, 0.00033167), n=100
+2022-03-29 05:21:29.800425 (INFO): train ETA: 0:00:15	99% CI: (0:00:15, 0:00:15), n=100
+2022-03-29 05:21:37.865456 (INFO): train Loss: 0.00032934	99% CI: (0.00032121, 0.00033746), n=100
+2022-03-29 05:21:38.352388 (INFO): train ETA: 0:00:06	99% CI: (0:00:06, 0:00:06), n=100
+2022-03-29 05:21:44.911637 (INFO): Total epoch time: 0:01:09
+2022-03-29 05:21:44.912295 (INFO): 
+
+2022-03-29 05:21:44.912314 (INFO): ########################################
+2022-03-29 05:21:44.912325 (INFO):           COMPLETED EPOCH: 24                              
+2022-03-29 05:21:44.912331 (INFO): train Loss: 0.00033	99% CI: (0.00031863, 0.00034137), n=78
+2022-03-29 05:21:44.912337 (INFO): ########################################
+2022-03-29 05:21:44.912344 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:21:53.734597 (INFO): train Loss: 0.00035722	99% CI: (0.00031865, 0.00039579), n=100
+2022-03-29 05:21:56.337467 (INFO): train ETA: 0:00:56	99% CI: (0:00:56, 0:00:56), n=100
+2022-03-29 05:22:03.235473 (INFO): train Loss: 0.00032621	99% CI: (0.00031459, 0.00033784), n=100
+2022-03-29 05:22:05.941678 (INFO): train ETA: 0:00:48	99% CI: (0:00:48, 0:00:48), n=100
+2022-03-29 05:22:12.206681 (INFO): train Loss: 0.00033037	99% CI: (0.00031925, 0.00034148), n=100
+2022-03-29 05:22:14.454147 (INFO): train ETA: 0:00:41	99% CI: (0:00:41, 0:00:41), n=100
+2022-03-29 05:22:20.497738 (INFO): train Loss: 0.00032591	99% CI: (0.00031502, 0.00033679), n=100
+2022-03-29 05:22:22.919002 (INFO): train ETA: 0:00:31	99% CI: (0:00:31, 0:00:31), n=100
+2022-03-29 05:22:29.421315 (INFO): train Loss: 0.0003249	99% CI: (0.00031534, 0.00033445), n=100
+2022-03-29 05:22:32.342330 (INFO): train ETA: 0:00:21	99% CI: (0:00:21, 0:00:21), n=100
+2022-03-29 05:22:38.540353 (INFO): train Loss: 0.00034576	99% CI: (0.00032618, 0.00036533), n=100
+2022-03-29 05:22:41.175559 (INFO): train ETA: 0:00:13	99% CI: (0:00:13, 0:00:13), n=100
+2022-03-29 05:22:47.898481 (INFO): train Loss: 0.00032458	99% CI: (0.00031635, 0.00033282), n=100
+2022-03-29 05:22:50.305618 (INFO): train ETA: 0:00:04	99% CI: (0:00:04, 0:00:04), n=100
+2022-03-29 05:22:54.628360 (INFO): Total epoch time: 0:01:09
+2022-03-29 05:22:54.628991 (INFO): 
+
+2022-03-29 05:22:54.629012 (INFO): ########################################
+2022-03-29 05:22:54.629022 (INFO):           COMPLETED EPOCH: 25                              
+2022-03-29 05:22:54.629028 (INFO): train Loss: 0.00032676	99% CI: (0.00031874, 0.00033477), n=78
+2022-03-29 05:22:54.629034 (INFO): ########################################
+2022-03-29 05:22:54.629042 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:23:03.726370 (INFO): train Loss: 0.000321	99% CI: (0.00031409, 0.00032791), n=100
+2022-03-29 05:23:08.060597 (INFO): train ETA: 0:00:56	99% CI: (0:00:56, 0:00:56), n=100
+2022-03-29 05:23:12.444072 (INFO): train Loss: 0.00031865	99% CI: (0.00031132, 0.00032599), n=100
+2022-03-29 05:23:16.689369 (INFO): train ETA: 0:00:46	99% CI: (0:00:46, 0:00:46), n=100
+2022-03-29 05:23:20.720346 (INFO): train Loss: 0.00031644	99% CI: (0.00030882, 0.00032407), n=100
+2022-03-29 05:23:24.780564 (INFO): train ETA: 0:00:37	99% CI: (0:00:37, 0:00:37), n=100
+2022-03-29 05:23:28.945008 (INFO): train Loss: 0.00032449	99% CI: (0.00031147, 0.00033751), n=100
+2022-03-29 05:23:33.244544 (INFO): train ETA: 0:00:28	99% CI: (0:00:28, 0:00:28), n=100
+2022-03-29 05:23:37.754532 (INFO): train Loss: 0.00033247	99% CI: (0.00031488, 0.00035005), n=100
+2022-03-29 05:23:41.937605 (INFO): train ETA: 0:00:19	99% CI: (0:00:19, 0:00:19), n=100
+2022-03-29 05:23:45.776366 (INFO): train Loss: 0.00032832	99% CI: (0.0003158, 0.00034085), n=100
+2022-03-29 05:23:50.660643 (INFO): train ETA: 0:00:10	99% CI: (0:00:10, 0:00:10), n=100
+2022-03-29 05:23:55.213408 (INFO): train Loss: 0.00032018	99% CI: (0.00031301, 0.00032734), n=100
+2022-03-29 05:23:59.648298 (INFO): train ETA: 0:00:02	99% CI: (0:00:02, 0:00:02), n=100
+2022-03-29 05:24:02.333394 (INFO): Total epoch time: 0:01:07
+2022-03-29 05:24:02.334051 (INFO): 
+
+2022-03-29 05:24:02.334073 (INFO): ########################################
+2022-03-29 05:24:02.334092 (INFO):           COMPLETED EPOCH: 26                              
+2022-03-29 05:24:02.334098 (INFO): train Loss: 0.00031851	99% CI: (0.00030796, 0.00032907), n=78
+2022-03-29 05:24:02.334103 (INFO): ########################################
+2022-03-29 05:24:02.334108 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:24:02.513931 (INFO): 
+2022-03-29 05:24:02.513989 (INFO): --------------------------------------------------
+2022-03-29 05:24:02.514004 (INFO): dev_evaluation
+2022-03-29 05:24:02.514010 (INFO): --------------------------------------------------
+2022-03-29 05:24:02.514015 (INFO): 
+2022-03-29 05:34:55.506287 (INFO): Hits left @1: 0.10474795386904762
+2022-03-29 05:34:55.509121 (INFO): Hits right @1: 0.020565941220238096
+2022-03-29 05:34:55.514669 (INFO): Hits @1: 0.06265694754464286
+2022-03-29 05:34:55.517557 (INFO): Hits left @2: 0.12236095610119048
+2022-03-29 05:34:55.520246 (INFO): Hits right @2: 0.022391183035714284
+2022-03-29 05:34:55.525945 (INFO): Hits @2: 0.07237606956845238
+2022-03-29 05:34:55.528651 (INFO): Hits left @3: 0.15476190476190477
+2022-03-29 05:34:55.531295 (INFO): Hits right @3: 0.023297991071428572
+2022-03-29 05:34:55.536767 (INFO): Hits @3: 0.08902994791666667
+2022-03-29 05:34:55.539606 (INFO): Hits left @4: 0.15826125372023808
+2022-03-29 05:34:55.542225 (INFO): Hits right @4: 0.023856026785714284
+2022-03-29 05:34:55.547529 (INFO): Hits @4: 0.09105864025297619
+2022-03-29 05:34:55.550238 (INFO): Hits left @5: 0.17380487351190477
+2022-03-29 05:34:55.552918 (INFO): Hits right @5: 0.024274553571428572
+2022-03-29 05:34:55.558357 (INFO): Hits @5: 0.09903971354166667
+2022-03-29 05:34:55.561074 (INFO): Hits left @6: 0.21061197916666666
+2022-03-29 05:34:55.563747 (INFO): Hits right @6: 0.025262741815476192
+2022-03-29 05:34:55.569427 (INFO): Hits @6: 0.11793736049107142
+2022-03-29 05:34:55.572388 (INFO): Hits left @7: 0.22202845982142858
+2022-03-29 05:34:55.575055 (INFO): Hits right @7: 0.02589053199404762
+2022-03-29 05:34:55.580742 (INFO): Hits @7: 0.1239594959077381
+2022-03-29 05:34:55.583772 (INFO): Hits left @8: 0.22429547991071427
+2022-03-29 05:34:55.586508 (INFO): Hits right @8: 0.026076543898809524
+2022-03-29 05:34:55.592151 (INFO): Hits @8: 0.12518601190476192
+2022-03-29 05:34:55.594891 (INFO): Hits left @9: 0.22645786830357142
+2022-03-29 05:34:55.597524 (INFO): Hits right @9: 0.02634393601190476
+2022-03-29 05:34:55.603172 (INFO): Hits @9: 0.12640090215773808
+2022-03-29 05:34:55.605994 (INFO): Hits left @10: 0.22720191592261904
+2022-03-29 05:34:55.608859 (INFO): Hits right @10: 0.026564825148809524
+2022-03-29 05:34:55.614370 (INFO): Hits @10: 0.12688337053571427
+2022-03-29 05:34:55.631471 (INFO): Mean rank left: 10003.187139601934
+2022-03-29 05:34:55.638703 (INFO): Mean rank right: 19438.50706845238
+2022-03-29 05:34:55.651201 (INFO): Mean rank: 14720.847104027158
+2022-03-29 05:34:55.657792 (INFO): Mean reciprocal rank left: 0.1417623656023389
+2022-03-29 05:34:55.665550 (INFO): Mean reciprocal rank right: 0.022724736434978108
+2022-03-29 05:34:55.686679 (INFO): Mean reciprocal rank: 0.08224355101865852
+2022-03-29 05:34:55.725857 (INFO): 
+2022-03-29 05:34:55.725901 (INFO): --------------------------------------------------
+2022-03-29 05:34:55.725908 (INFO): test_evaluation
+2022-03-29 05:34:55.725914 (INFO): --------------------------------------------------
+2022-03-29 05:34:55.725959 (INFO): 
+2022-03-29 05:41:54.561822 (INFO): Hits left @1: 0.12928602430555555
+2022-03-29 05:41:54.563826 (INFO): Hits right @1: 0.041413483796296294
+2022-03-29 05:41:54.567571 (INFO): Hits @1: 0.08534975405092593
+2022-03-29 05:41:54.569417 (INFO): Hits left @2: 0.15959563078703703
+2022-03-29 05:41:54.571414 (INFO): Hits right @2: 0.044596354166666664
+2022-03-29 05:41:54.574963 (INFO): Hits @2: 0.10209599247685185
+2022-03-29 05:41:54.576771 (INFO): Hits left @3: 0.18149594907407407
+2022-03-29 05:41:54.578578 (INFO): Hits right @3: 0.046567563657407406
+2022-03-29 05:41:54.582211 (INFO): Hits @3: 0.11403175636574074
+2022-03-29 05:41:54.584243 (INFO): Hits left @4: 0.1885308159722222
+2022-03-29 05:41:54.586292 (INFO): Hits right @4: 0.04774305555555555
+2022-03-29 05:41:54.590204 (INFO): Hits @4: 0.1181369357638889
+2022-03-29 05:41:54.592056 (INFO): Hits left @5: 0.2030345775462963
+2022-03-29 05:41:54.593942 (INFO): Hits right @5: 0.048773871527777776
+2022-03-29 05:41:54.598347 (INFO): Hits @5: 0.12590422453703703
+2022-03-29 05:41:54.600446 (INFO): Hits left @6: 0.22321686921296297
+2022-03-29 05:41:54.602415 (INFO): Hits right @6: 0.05003978587962963
+2022-03-29 05:41:54.606732 (INFO): Hits @6: 0.1366283275462963
+2022-03-29 05:41:54.608755 (INFO): Hits left @7: 0.23489945023148148
+2022-03-29 05:41:54.610756 (INFO): Hits right @7: 0.051938657407407406
+2022-03-29 05:41:54.615079 (INFO): Hits @7: 0.14341905381944445
+2022-03-29 05:41:54.617206 (INFO): Hits left @8: 0.24025245949074073
+2022-03-29 05:41:54.619193 (INFO): Hits right @8: 0.052824797453703706
+2022-03-29 05:41:54.623534 (INFO): Hits @8: 0.1465386284722222
+2022-03-29 05:41:54.625721 (INFO): Hits left @9: 0.24301938657407407
+2022-03-29 05:41:54.627855 (INFO): Hits right @9: 0.053548177083333336
+2022-03-29 05:41:54.631993 (INFO): Hits @9: 0.1482837818287037
+2022-03-29 05:41:54.634133 (INFO): Hits left @10: 0.2450629340277778
+2022-03-29 05:41:54.636388 (INFO): Hits right @10: 0.054108796296296294
+2022-03-29 05:41:54.640644 (INFO): Hits @10: 0.14958586516203703
+2022-03-29 05:41:54.653972 (INFO): Mean rank left: 9798.622685185184
+2022-03-29 05:41:54.662480 (INFO): Mean rank right: 18527.1408239294
+2022-03-29 05:41:54.675948 (INFO): Mean rank: 14162.881754557291
+2022-03-29 05:41:54.681942 (INFO): Mean reciprocal rank left: 0.1676290443345884
+2022-03-29 05:41:54.689109 (INFO): Mean reciprocal rank right: 0.045555695831928214
+2022-03-29 05:41:54.713563 (INFO): Mean reciprocal rank: 0.1065923700832583
+2022-03-29 05:42:03.405274 (INFO): train Loss: 0.00032585	99% CI: (0.00031111, 0.00034059), n=100
+2022-03-29 05:42:09.676229 (INFO): train ETA: 0:00:52	99% CI: (0:00:52, 0:00:52), n=100
+2022-03-29 05:42:12.476150 (INFO): train Loss: 0.00031832	99% CI: (0.0003105, 0.00032614), n=100
+2022-03-29 05:42:18.709617 (INFO): train ETA: 0:00:44	99% CI: (0:00:44, 0:00:44), n=100
+2022-03-29 05:42:21.482595 (INFO): train Loss: 0.00031969	99% CI: (0.00031168, 0.0003277), n=100
+2022-03-29 05:42:28.257414 (INFO): train ETA: 0:00:36	99% CI: (0:00:35, 0:00:36), n=100
+2022-03-29 05:42:30.465224 (INFO): train Loss: 0.00032441	99% CI: (0.00031397, 0.00033485), n=100
+2022-03-29 05:42:36.568464 (INFO): train ETA: 0:00:27	99% CI: (0:00:27, 0:00:27), n=100
+2022-03-29 05:42:38.919151 (INFO): train Loss: 0.00033955	99% CI: (0.00030681, 0.00037228), n=100
+2022-03-29 05:42:45.855214 (INFO): train ETA: 0:00:17	99% CI: (0:00:17, 0:00:18), n=100
+2022-03-29 05:42:48.370186 (INFO): train Loss: 0.00032148	99% CI: (0.00031204, 0.00033093), n=100
+2022-03-29 05:42:55.046877 (INFO): train ETA: 0:00:09	99% CI: (0:00:09, 0:00:09), n=100
+2022-03-29 05:42:57.399019 (INFO): train Loss: 0.00032816	99% CI: (0.0003145, 0.00034182), n=100
+2022-03-29 05:43:03.588212 (INFO): train ETA: 0:00:00	99% CI: (0:00:00, 0:00:00), n=100
+2022-03-29 05:43:04.188157 (INFO): Total epoch time: 0:01:09
+2022-03-29 05:43:04.188780 (INFO): 
+
+2022-03-29 05:43:04.188801 (INFO): ########################################
+2022-03-29 05:43:04.188813 (INFO):           COMPLETED EPOCH: 27                              
+2022-03-29 05:43:04.188819 (INFO): train Loss: 0.00031974	99% CI: (0.00031089, 0.0003286), n=78
+2022-03-29 05:43:04.188825 (INFO): ########################################
+2022-03-29 05:43:04.188829 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:43:12.744796 (INFO): train Loss: 0.00031323	99% CI: (0.00030633, 0.00032012), n=100
+2022-03-29 05:43:20.971694 (INFO): train ETA: 0:00:49	99% CI: (0:00:49, 0:00:49), n=100
+2022-03-29 05:43:21.520851 (INFO): train Loss: 0.00030857	99% CI: (0.00030207, 0.00031507), n=100
+2022-03-29 05:43:29.560598 (INFO): train ETA: 0:00:41	99% CI: (0:00:41, 0:00:41), n=100
+2022-03-29 05:43:30.031783 (INFO): train Loss: 0.00031581	99% CI: (0.00030446, 0.00032716), n=100
+2022-03-29 05:43:38.147424 (INFO): train ETA: 0:00:32	99% CI: (0:00:32, 0:00:32), n=100
+2022-03-29 05:43:38.678901 (INFO): train Loss: 0.00032092	99% CI: (0.00030889, 0.00033295), n=100
+2022-03-29 05:43:47.375280 (INFO): train ETA: 0:00:24	99% CI: (0:00:24, 0:00:24), n=100
+2022-03-29 05:43:47.883952 (INFO): train Loss: 0.00032761	99% CI: (0.00031219, 0.00034304), n=100
+2022-03-29 05:43:56.222016 (INFO): train ETA: 0:00:16	99% CI: (0:00:16, 0:00:16), n=100
+2022-03-29 05:43:56.691180 (INFO): train Loss: 0.00031945	99% CI: (0.00031099, 0.0003279), n=100
+2022-03-29 05:44:04.602094 (INFO): train ETA: 0:00:07	99% CI: (0:00:07, 0:00:07), n=100
+2022-03-29 05:44:04.983828 (INFO): train Loss: 0.00031736	99% CI: (0.00030794, 0.00032679), n=100
+2022-03-29 05:44:12.053886 (INFO): Total epoch time: 0:01:07
+2022-03-29 05:44:12.054444 (INFO): 
+
+2022-03-29 05:44:12.054463 (INFO): ########################################
+2022-03-29 05:44:12.054472 (INFO):           COMPLETED EPOCH: 28                              
+2022-03-29 05:44:12.054513 (INFO): train Loss: 0.00031396	99% CI: (0.00030677, 0.00032116), n=78
+2022-03-29 05:44:12.054518 (INFO): ########################################
+2022-03-29 05:44:12.054523 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:44:20.627155 (INFO): train Loss: 0.00031078	99% CI: (0.00030435, 0.0003172), n=100
+2022-03-29 05:44:22.001229 (INFO): train ETA: 0:00:54	99% CI: (0:00:53, 0:00:54), n=100
+2022-03-29 05:44:29.905911 (INFO): train Loss: 0.00031612	99% CI: (0.00030882, 0.00032341), n=100
+2022-03-29 05:44:31.457525 (INFO): train ETA: 0:00:47	99% CI: (0:00:47, 0:00:48), n=100
+2022-03-29 05:44:39.233048 (INFO): train Loss: 0.0003086	99% CI: (0.00030095, 0.00031626), n=100
+2022-03-29 05:44:40.555578 (INFO): train ETA: 0:00:41	99% CI: (0:00:41, 0:00:41), n=100
+2022-03-29 05:44:48.013169 (INFO): train Loss: 0.00032667	99% CI: (0.00030639, 0.00034696), n=100
+2022-03-29 05:44:49.348974 (INFO): train ETA: 0:00:32	99% CI: (0:00:32, 0:00:32), n=100
+2022-03-29 05:44:56.811484 (INFO): train Loss: 0.0003201	99% CI: (0.00030729, 0.00033292), n=100
+2022-03-29 05:44:58.127915 (INFO): train ETA: 0:00:23	99% CI: (0:00:23, 0:00:23), n=100
+2022-03-29 05:45:05.558141 (INFO): train Loss: 0.00031228	99% CI: (0.00030548, 0.00031907), n=100
+2022-03-29 05:45:06.892901 (INFO): train ETA: 0:00:14	99% CI: (0:00:14, 0:00:14), n=100
+2022-03-29 05:45:13.835947 (INFO): train Loss: 0.00031366	99% CI: (0.00030611, 0.00032121), n=100
+2022-03-29 05:45:15.375818 (INFO): train ETA: 0:00:05	99% CI: (0:00:05, 0:00:05), n=100
+2022-03-29 05:45:20.488616 (INFO): Total epoch time: 0:01:08
+2022-03-29 05:45:20.489172 (INFO): 
+
+2022-03-29 05:45:20.489189 (INFO): ########################################
+2022-03-29 05:45:20.489199 (INFO):           COMPLETED EPOCH: 29                              
+2022-03-29 05:45:20.489205 (INFO): train Loss: 0.00031839	99% CI: (0.00030753, 0.00032924), n=78
+2022-03-29 05:45:20.489210 (INFO): ########################################
+2022-03-29 05:45:20.489221 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
+2022-03-29 05:45:29.903390 (INFO): train Loss: 0.00031925	99% CI: (0.0003104, 0.00032811), n=100
+2022-03-29 05:45:33.622140 (INFO): train ETA: 0:00:59	99% CI: (0:00:59, 0:00:59), n=100
+2022-03-29 05:45:38.903841 (INFO): train Loss: 0.00031277	99% CI: (0.00030491, 0.00032062), n=100
+2022-03-29 05:45:42.307743 (INFO): train ETA: 0:00:49	99% CI: (0:00:49, 0:00:49), n=100
+2022-03-29 05:45:47.992012 (INFO): train Loss: 0.00032282	99% CI: (0.00030704, 0.0003386), n=100
+2022-03-29 05:45:51.703825 (INFO): train ETA: 0:00:39	99% CI: (0:00:39, 0:00:40), n=100
+2022-03-29 05:45:57.593183 (INFO): train Loss: 0.00031783	99% CI: (0.00030888, 0.00032678), n=100
+2022-03-29 05:46:00.666558 (INFO): train ETA: 0:00:31	99% CI: (0:00:31, 0:00:31), n=100
+2022-03-29 05:46:06.384335 (INFO): train Loss: 0.00031001	99% CI: (0.00030329, 0.00031673), n=100
+2022-03-29 05:46:09.688618 (INFO): train ETA: 0:00:22	99% CI: (0:00:22, 0:00:22), n=100
+2022-03-29 05:46:14.956013 (INFO): train Loss: 0.00031006	99% CI: (0.00030249, 0.00031764), n=100
+2022-03-29 05:46:18.502449 (INFO): train ETA: 0:00:12	99% CI: (0:00:12, 0:00:12), n=100
+2022-03-29 05:46:23.793752 (INFO): train Loss: 0.00031813	99% CI: (0.00030326, 0.00033299), n=100
+2022-03-29 05:46:27.280507 (INFO): train ETA: 0:00:03	99% CI: (0:00:03, 0:00:03), n=100
+2022-03-29 05:46:30.710129 (INFO): Total epoch time: 0:01:10
+2022-03-29 05:46:30.710733 (INFO): 
+
+2022-03-29 05:46:30.710754 (INFO): ########################################
+2022-03-29 05:46:30.710763 (INFO):           COMPLETED EPOCH: 30                              
+2022-03-29 05:46:30.710770 (INFO): train Loss: 0.00030994	99% CI: (0.00030294, 0.00031694), n=78
+2022-03-29 05:46:30.710775 (INFO): ########################################
+2022-03-29 05:46:30.710780 (INFO): 
+
+saving to saved_models/LegalCaseStudy_conve_0.2_0.3.model
